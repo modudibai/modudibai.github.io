@@ -33,13 +33,13 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>my.com.aia.apac.ats</string>
+                <string>com.lohashow.appb.ent</string>
                 <key>bundle-version</key>
                 <string>4.2.7</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>sgsmjz</string>
+                <string>三国杀名将传</string>
             </dict>
         </dict>
     </array>
