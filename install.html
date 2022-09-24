@@ -1,90 +1,60 @@
 <html>
-
 <head>
-    <script type='text/javascript' src='filereader.js'></script>
-    <script type='text/javascript' src='FileSaver.js'></script>
-    <link rel='stylesheet' href='pure-min.css'>
+<title>三国门神安装</title>
+<style>
+body{
+  color: #000000d9;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue;
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+.download-links {
+  text-align: center;
+}
+.download-links button {
+  margin-right: 20px;
+}
+a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer
+}
+button {
+  color: #fff;
+  background: #0170fe;
+  font-size: 16px;
+  height: auto;
+  padding: 8px 24px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  user-select: none;
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+}
+</style>
 </head>
 
 <body>
-<form id='file-form' method='post' action='javascript:generateJsPDFFontFile()' enctype='multipart/form-data'
-      class='pure-form pure-form-aligned'>
-    <fieldset>
-        <div class='pure-control-group'>
-            <label for='fontName'>fontName</label>
-            <input type='text' name='fontName' id='fontName' placeholder='fontName'/>
-        </div>
-        <div class='pure-control-group'>
-            <label for='fontStyle'>fontStyle</label>
-            <select name='fontStyle' id='fontStyle'>
-                <option value='normal'>normal</option>
-                <option value='bold'>bold</option>
-                <option value='italic'>italic</option>
-                <option value='bolditalic'>bolditalic</option>
-            </select>
-        </div>
-        <div class='pure-control-group'>
-            <label for='moduleFormat'>Module format</label>
-            <select name='moduleFormat' id='moduleFormat'>
-                <option value='es'>ES modules</option>
-                <option value='umd'>UMD</option>
-            </select>
-        </div>
-        <div class='pure-control-group'>
-            <label for='file-input'>File</label>
-            <input type='hidden' name='extra-data' multiple/>
-            <input type='file' id='file-input' name='file-input' multiple/>
-        </div>
-        <div class='pure-controls'>
-            <button type='submit' value='Create' id='createFile' class='pure-button pure-button-primary'>Create</button>
-        </div>
-    </fieldset>
-</form>
-<script>
-    var opts = {
-        on: {
-            load: function (e, file) {
-                window.loadedFile = file;
-                document.getElementById('fontName').value = file.extra.nameNoExtension;
-
-                var fileReader = new FileReader();
-                fileReader.onload = function (e) {
-                    window.loadedFileContents = e.target.result;
-                    window.loadedFileContents = window.loadedFileContents.substr(window.loadedFileContents.indexOf('base64,') + 7)
-                };
-                fileReader.readAsDataURL(file);
-            }
-        }
-    };
-    FileReaderJS.setupInput(document.getElementById('file-input'), opts);
-
-    function generateJsPDFFontFile() {
-        var jsFile = '';
-        var fontName = document.getElementById('fontName').value;
-        var fontStyle = document.getElementById('fontStyle').value;
-        var moduleFormat = document.getElementById('moduleFormat').value;
-        var createdFileName = fontName + '-' + fontStyle + '.ttf';
-
-        var esHeader = 'import { jsPDF } from "jspdf"\n'
-        var umdHeader = "(function (global, factory) {\n" +
-            "    typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('jspdf')) :\n" +
-            "    typeof define === 'function' && define.amd ? define(['jspdf'], factory) :\n" +
-            "    (global = global || self, factory(global.jspdf));\n" +
-            "}(this, (function (jspdf) { 'use strict';\nvar jsPDF = jspdf.jsPDF;\n"
-
-        jsFile += moduleFormat === "es" ? esHeader : umdHeader
-        jsFile += 'var font = \'' + window.loadedFileContents + '\';\n';
-        jsFile += 'var callAddFont = function () {\n';
-        jsFile += 'this.addFileToVFS(\'' + createdFileName + '\', font);\n';
-        jsFile += 'this.addFont(\'' + createdFileName + '\', \'' + fontName + '\', \'' + fontStyle + '\');\n};\n';
-        jsFile += 'jsPDF.API.events.push([\'addFonts\', callAddFont])\n';
-
-        if (moduleFormat === "umd") {
-            jsFile += "})));"
-        }
-
-        var newJsfile = new File([jsFile], fontName + '-' + fontStyle + '.js', {type: 'text/plain;charset=utf-8'});
-        saveAs(newJsfile);
-    }
-</script>
+  <p class="title">《三国门神》辅助工具</p>
+  <div class="download-links">
+    <a href="itms-services://?action=download-manifest&url=https://api.cacher.io/raw/fa3df5b4fe96a85a3c98/505edbb428325f652cb3/manifest-gh.plist">
+      <button type="button" class="ant-btn ant-btn-round ant-btn-primary">下载地址1</button>
+    </a>
+    <a href="itms-services://?action=download-manifest&url=https://api.cacher.io/raw/fa3df5b4fe96a85a3c98/505edbb428325f652cb3/manifest-gh2.plist">
+      <button type="button" class="ant-btn ant-btn-round ant-btn-primary">下载地址2</button>
+    </a>
+    <a href="itms-services://?action=download-manifest&url=https://api.cacher.io/raw/fa3df5b4fe96a85a3c98/505edbb428325f652cb3/manifest-gh3.plist">
+      <button type="button" class="ant-btn ant-btn-round ant-btn-primary">下载地址3</button>
+    </a>
+  </div>
 </body>
