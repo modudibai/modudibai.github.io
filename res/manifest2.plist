@@ -33,7 +33,7 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.lohashow.appb.ent</string>
+                <string>com.yitong.cn.jsbchina.iphone.ent.NotificationService</string>
                 <key>bundle-version</key>
                 <string>4.2.7</string>
                 <key>kind</key>
