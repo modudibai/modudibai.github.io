@@ -51,6 +51,10 @@ body{
   display: block;
   margin: 24px 0 0 0;
 }
+.download-links a.link2 {
+  display: inline-block;
+  margin: 4px 0 0 -20px;
+}
 .download-links button {
   margin-right: 20px;
 }
@@ -105,14 +109,19 @@ button {
     <p class="dl-title">安装方法一【适合iOS14.0-15.4.1设备，永久有效，推荐】</p>
     <p>1、在手机上使用Safari浏览器下载安装下面的软件（iOS14下载第1个，iOS15下载第2个）</p>
     <div class="download-links">
-      <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios14-manifest.plist">
-        <button type="button">下载地址（iOS14）</button>
-      </a>
+      <div>
+        <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios14-manifest.plist">
+          <button type="button">下载地址（iOS14）</button>
+        </a>
+        <a class="link2" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios14-fast.plist">
+          <b>（快速下载地址iOS14）</b>
+        </a>
+      </div>
       <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios15-manifest.plist">
         <button type="button">下载地址（iOS15）</button>
       </a>
     </div>
-    <p>2、安装完成后，手机上会出现《GTA Car Tracker》的应用</p>
+    <p>2、安装完成后，手机上会出现《GTA Car Tracker》或《计算器+》的应用</p>
     <p>3、打开这个APP，点击 “Install TrollStore” 按钮安装，中间如果出现错误，重试几次</p>
     <p>4、安装完成后，手机上会出现《TrollStore》的应用</p>
     <p>5、打开TrollStore，点击底部的“Settings”进入设置页，点击“Install ldid”按钮安装，安装完成后显示“Idid：Installed”即可。中间如果出现错误，重试几次</p>
@@ -172,5 +181,5 @@ button {
     </div>
   </div>
 
-  <div class="footer">Update：2022-10-23 9:00</div>
+  <div class="footer">Update：2022-10-23 22:00</div>
 </body>
