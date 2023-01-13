@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://gd-cowtransfer.cdn.cowtransfer.com/cowtransfer/cowtransfer/54925/6b93e753b4be4ce2b4ef7ec84c0d9502.ipa?auth_key=1673613990-92f6c040f5944f36a3635a512855840d-0-ea8beeceaadaca79b9cee484b9b11624</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>needs-shine</key>
+                    <true/>
+                    <key>url</key>
+                    <string>https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>needs-shine</key>
+                    <true/>
+                    <key>url</key>
+                    <string>https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.dibai.zzxy</string>
+                <key>bundle-version</key>
+                <string>1.1.31</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>自在西游+</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
