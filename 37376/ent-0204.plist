@@ -33,13 +33,13 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.sanguosha.mjzoo</string>
+                <string>com.dibai.sgzmjz</string>
                 <key>bundle-version</key>
-                <string>4.2.7</string>
+                <string>5.4.4</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>三国名将传+</string>
+                <string>三国志名将传</string>
             </dict>
         </dict>
     </array>
