@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://tmp-azeroth.vx-cdn.com/file-63df978f9a33b-63f87ab2cca37/zzxy-ent-0205.ipa</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>needs-shine</key>
+                    <true/>
+                    <key>url</key>
+                    <string>https://img.tapimg.com/market/lcs/b28ca0b71dc0b3241b280069ad67b5a6_360_v2.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>needs-shine</key>
+                    <true/>
+                    <key>url</key>
+                    <string>https://img.tapimg.com/market/lcs/b28ca0b71dc0b3241b280069ad67b5a6_360_v2.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.HKSoft.JinfengEnergApp.1</string>
+                <key>bundle-version</key>
+                <string>1.1.31</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>自在西游+</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
