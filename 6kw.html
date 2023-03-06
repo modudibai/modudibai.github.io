@@ -92,14 +92,22 @@ button {
 }
 </style>
 <script type="text/javascript">
-alert(navigator.userAgent);
+var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var data = {
+  entURL: 'itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/manifest-ent-0224c.plist',
+}
+
+function onEntDownload(evt) {
+  window.location.href = data.entURL;
+}
+
 </script>
 </head>
 
 <body>
   <div class="top">
-    <p class="title">《名将助手》辅助工具</p>
-    <p class="desc">（最新更新：2023-02-24）</p>
+    <p class="title">《三国英雄录》助手</p>
+    <p class="desc">（最新更新：2023-03-06）</p>
     <p class="tip">【!!!支持各种iOS设备，不论是否越狱!!!】</p>
     <p class="features-title">功能介绍：</p>
     <ul class="features-list">
@@ -107,9 +115,8 @@ alert(navigator.userAgent);
       <li>迷窟自动接单/跑单，无需任何设置，简单高效</li>
       <li>全局加速、自动答题（跨服/军团/游历）等，比光环更好更自动，可以抛弃光环了</li>
       <li>全局战斗跳过，做任务更快速</li>
-      <li>一键自动日常任务，瞬间150满活跃，摸小号利器</li>
-      <li>账号登录历史上限从10改为50，再也不用担心小号多开了</li>
-      <li>一键切号+自动任务，简直不要太方便</li>
+      <li class="red">一键自动日常任务，瞬间150满活跃，摸小号利器</li>
+      <li class="red">一键切号+自动任务，简直不要太方便</li>
       <li class="red">华容道，自动押注100%赢，锦囊元宝用不完</li>
       <li>隐身模式，让你在工作同时安心摸鱼跑单</li>
     </ul>
@@ -131,7 +138,7 @@ alert(navigator.userAgent);
     <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
     <div class="download-links">
       <div>
-        <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/manifest-ent-0224c.plist">
+        <a href="javascript:void(0);" onclick="onEntDownload(evt)">
           <button type="button">点击安装</button>
         </a>
         <p class="tip">【提醒：如果出现无法安装/无法验证等情况，说明已掉签，请等待更新后再安装】</p>
@@ -229,5 +236,5 @@ alert(navigator.userAgent);
     <p>8、在Filza里，点击要安装的ipa文件后，在右上角点击安装即可</p>
   </div>
 
-  <div class="footer">Update：2023-02-28 11:00</div>
+  <div class="footer">Update：2023-03-06 11:00</div>
 </body>
