@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>名将助手</title>
+<title>三国英雄录助手</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <style>
 body{
@@ -97,7 +97,7 @@ var data = {
   entURL: 'itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/manifest-ent-0224c.plist',
 }
 
-function onEntDownload(evt) {
+function onEntDownload() {
   window.location.href = data.entURL;
 }
 
@@ -138,7 +138,7 @@ function onEntDownload(evt) {
     <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
     <div class="download-links">
       <div>
-        <a href="javascript:void(0);" onclick="onEntDownload(evt)">
+        <a href="javascript:void(0);" onclick="onEntDownload()">
           <button type="button">点击安装</button>
         </a>
         <p class="tip">【提醒：如果出现无法安装/无法验证等情况，说明已掉签，请等待更新后再安装】</p>
@@ -236,5 +236,5 @@ function onEntDownload(evt) {
     <p>8、在Filza里，点击要安装的ipa文件后，在右上角点击安装即可</p>
   </div>
 
-  <div class="footer">Update：2023-03-06 11:00</div>
+  <div class="footer">Update：2023-02-28 11:00</div>
 </body>
