@@ -284,6 +284,8 @@ function generatePlistContent(data) {
 }
 
 function uploadPlist(callback) {
+  showLoading(true);
+
   var xhr = new XMLHttpRequest();
   xhr.open('post', 'https://file.io', true);
   var plist = generatePlistContent({
@@ -312,8 +314,12 @@ function uploadPlist(callback) {
   formData.append('maxDownloads', 1);
   formData.append('autoDelete', 'true');
   xhr.addEventListener('load', function(){
+    showLoading(false);
     var result = JSON.parse(xhr.response);
     callback(result.link);
+  });
+  xhr.addEventListener('error', function(){
+    showLoading(false);
   });
   xhr.send(formData);
 }
@@ -327,9 +333,7 @@ function onEntInstall() {
     return;
   }
   
-  showLoading(true);
   uploadPlist(function(linkUrl){
-    showLoading(false);
     window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
   });
 }
