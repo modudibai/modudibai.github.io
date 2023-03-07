@@ -273,8 +273,12 @@ var isWX = /MicroMessenger/ig.test(navigator.userAgent);
 var isAndroid = /Android/ig.test(navigator.userAgent);
 var data = {
   entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
-  entPlist: 'https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/sgyxl-ent-0305b.plist',
   vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
+  entId: 'com.HKSoft.JinfengEnergApp.1',
+  vipId: 'com.dibai.sgyxl',
+  version: '5.1.11',
+  title: '三国英雄录+',
+  image: 'https://ios.6kw.com/sgyxl1/57.png'
 }
 
 function generatePlistContent(data) {
@@ -283,17 +287,18 @@ function generatePlistContent(data) {
   return plist;
 }
 
-function uploadPlist(callback) {
+function makePlistFile(isEnt, callback) {
   showLoading(true);
 
   var xhr = new XMLHttpRequest();
   xhr.open('post', 'https://file.io', true);
+
   var plist = generatePlistContent({
-    url: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
-    image: 'https://ios.6kw.com/sgyxl1/57.png',
-    id: 'com.HKSoft.JinfengEnergApp.1',
-    version: '5.1.11',
-    title: '三国英雄录+'
+    url: isEnt ? data.entIPA : data.vipIPA,
+    id: isEnt ? data.entId : data.vipId,
+    image: data.image,
+    version: data.version,
+    title: data.title
   });
   var blob = new Blob([plist], {type:'application/octet-stream'});
   
@@ -308,6 +313,7 @@ function uploadPlist(callback) {
   dateStr += '-' + (month < 10 ? ('0' + month) : month);
   dateStr += '-' + (date < 10 ? ('0' + date) : date);
   dateStr += 'T23:59:59.590Z';
+
   var formData = new FormData();
   formData.append('file', blob, 'manifest.plist');
   formData.append('expires', dateStr);
@@ -326,7 +332,7 @@ function uploadPlist(callback) {
   xhr.send(formData);
 }
 
-function onEntInstall() {
+function onAppInstall(isEnt) {
   if (isWX) {
     alert('微信中无法安装，请在手机Safari浏览器中打开本页面后，再点击安装');
     return;
@@ -335,18 +341,14 @@ function onEntInstall() {
     return;
   }
   
-  uploadPlist(function(linkUrl){
+  makePlistFile(isEnt, function(linkUrl){
     window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
   });
 }
 
-function onEntDownload() {
-  window.location.href = data.entIPA;
-  window.event.returnValue = false;
-}
-
-function onVipDownload() {
-  window.location.href = data.vipIPA;
+function onAppDownload(isEnt) {
+  var url = isEnt ? data.entIPA : data.vipIPA;
+  window.location.href = url;
   window.event.returnValue = false;
 }
 
@@ -408,7 +410,7 @@ function showLoading(visible) {
     <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
     <div class="download-links">
       <div>
-        <a href="javascript:void(0);" onclick="onEntInstall()">
+        <a href="javascript:void(0);" onclick="onAppInstall(true)">
           <button type="button">点击安装</button>
         </a>
         <p class="tip">【提醒：如果出现无法安装/无法验证等情况，说明已掉签，请等待更新后再安装】</p>
@@ -442,7 +444,7 @@ function showLoading(visible) {
     <p>6、点击“Install Persistence Helper”，弹出选择“Tips”，到此准备工作完成</p>
     <p>7、在手机上用Safari浏览器点击下载下面ipa文件（2个链接任选1个）</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -454,7 +456,7 @@ function showLoading(visible) {
     <p class="dl-title">电脑侧载安装【适合所有设备，需电脑配合安装】</p>
     <p>1、在电脑上下载下面ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -479,7 +481,7 @@ function showLoading(visible) {
     <p>1、先自行越狱iOS设备，推荐使用 <a href="https://unc0ver.dev" target="_blank"><b>unc0ver越狱</b></a></p>
     <p>2、用Safari浏览器下载游戏ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
