@@ -322,7 +322,7 @@ function makePlistFile(isEnt, callback) {
   xhr.addEventListener('load', function(){
     setTimeout(function(){
       showLoading(false);
-    }, 2.0);
+    }, 3000);
     var result = JSON.parse(xhr.response);
     callback(result.link);
   });
