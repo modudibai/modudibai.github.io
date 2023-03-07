@@ -269,9 +269,7 @@ button {
 }
 </style>
 <script type="text/javascript">
-var isWX = /MicroMessenger/ig.test(navigator.userAgent);
-var isAndroid = /Android/ig.test(navigator.userAgent);
-var data = {
+var appData = {
   entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
   vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
   entId: 'com.HKSoft.JinfengEnergApp.1',
@@ -280,6 +278,8 @@ var data = {
   title: '三国英雄录+',
   image: 'https://ios.6kw.com/sgyxl1/57.png'
 }
+var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var isAndroid = /Android/ig.test(navigator.userAgent);
 
 function generatePlistContent(data) {
   var plist = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${IPA_URL}</string></dict><dict><key>kind</key><string>full-size-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict><dict><key>kind</key><string>display-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${IPA_BUNDLE_ID}</string><key>bundle-version</key><string>${IPA_BUNDLE_VER}</string><key>kind</key><string>software</string><key>title</key><string>${IPA_BUNDLE_TITLE}</string></dict></dict></array></dict></plist>';
@@ -294,11 +294,11 @@ function makePlistFile(isEnt, callback) {
   xhr.open('post', 'https://file.io', true);
 
   var plist = generatePlistContent({
-    url: isEnt ? data.entIPA : data.vipIPA,
-    id: isEnt ? data.entId : data.vipId,
-    image: data.image,
-    version: data.version,
-    title: data.title
+    url: isEnt ? appData.entIPA : appData.vipIPA,
+    id: isEnt ? appData.entId : appData.vipId,
+    image: appData.image,
+    version: appData.version,
+    title: appData.title
   });
   var blob = new Blob([plist], {type:'application/octet-stream'});
   
@@ -347,7 +347,7 @@ function onAppInstall(isEnt) {
 }
 
 function onAppDownload(isEnt) {
-  var url = isEnt ? data.entIPA : data.vipIPA;
+  var url = isEnt ? appData.entIPA : appData.vipIPA;
   window.location.href = url;
   window.event.returnValue = false;
 }
