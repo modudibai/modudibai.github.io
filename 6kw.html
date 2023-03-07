@@ -91,36 +91,276 @@ button {
   text-align: center;
 }
 </style>
-<script type="text/javascript">
-var isWX = /MicroMessenger/ig.test(navigator.userAgent);
-var data = {
-  entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
-  entPlist: 'https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/sgyxl-ent-0305b.plist',
-  vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
+<style>
+.loading-wrapper {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(60, 60, 60, 0.3);
+  pointer-events: none;
 }
 
-function onEntInstall() {
+.loading-box {
+  width: 180px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(60, 60, 60, 1.0);
+  border-radius: 16px;
+  padding-top: 20px;
+}
+.loading-text {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.loading,
+.loading > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.loading {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  margin: auto;
+}
+
+.loading.la-dark {
+  color: #333;
+}
+
+.loading > div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+}
+
+.loading {
+  width: 32px;
+  height: 32px;
+  animation: ball-spin-clockwise-fade-rotating-rotate 6s infinite linear;
+}
+
+.loading > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -4px;
+  border-radius: 100%;
+  animation: ball-spin-clockwise-fade-rotating 1s infinite linear;
+}
+
+.loading > div:nth-child(1) {
+  top: 5%;
+  left: 50%;
+  animation-delay: -0.875s;
+}
+
+.loading > div:nth-child(2) {
+  top: 18.1801948466%;
+  left: 81.8198051534%;
+  animation-delay: -0.75s;
+}
+
+.loading > div:nth-child(3) {
+  top: 50%;
+  left: 95%;
+  animation-delay: -0.625s;
+}
+
+.loading > div:nth-child(4) {
+  top: 81.8198051534%;
+  left: 81.8198051534%;
+  animation-delay: -0.5s;
+}
+
+.loading > div:nth-child(5) {
+  top: 94.9999999966%;
+  left: 50.0000000005%;
+  animation-delay: -0.375s;
+}
+
+.loading > div:nth-child(6) {
+  top: 81.8198046966%;
+  left: 18.1801949248%;
+  animation-delay: -0.25s;
+}
+
+.loading > div:nth-child(7) {
+  top: 49.9999750815%;
+  left: 5.0000051215%;
+  animation-delay: -0.125s;
+}
+
+.loading > div:nth-child(8) {
+  top: 18.179464974%;
+  left: 18.1803700518%;
+  animation-delay: 0s;
+}
+
+.loading.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.loading.la-sm > div {
+  width: 4px;
+  height: 4px;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.loading.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+.loading.la-2x > div {
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.loading.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+.loading.la-3x > div {
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+@keyframes ball-spin-clockwise-fade-rotating-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes ball-spin-clockwise-fade-rotating {
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
+<script type="text/javascript">
+var appData = {
+  entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-64074ae3d725a/sgyxl-ent-0305b.ipa',
+  vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-64074ae3d725a/sgyxl-ent-0305b.ipa',
+  entId: 'com.HKSoft.JinfengEnergApp.1',
+  vipId: 'com.dibai.sgyxl',
+  version: '5.1.11',
+  title: '三国英雄录+',
+  image: 'https://ios.6kw.com/sgyxl1/57.png'
+}
+var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var isAndroid = /Android/ig.test(navigator.userAgent);
+
+function generatePlistContent(data) {
+  var plist = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${IPA_URL}</string></dict><dict><key>kind</key><string>full-size-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict><dict><key>kind</key><string>display-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${IPA_BUNDLE_ID}</string><key>bundle-version</key><string>${IPA_BUNDLE_VER}</string><key>kind</key><string>software</string><key>title</key><string>${IPA_BUNDLE_TITLE}</string></dict></dict></array></dict></plist>';
+  plist = plist.replace(/\$\{IPA_URL\}/ig, data.url).replace(/\$\{IPA_IMAGE\}/ig, data.image).replace(/\$\{IPA_BUNDLE_ID\}/ig, data.id).replace(/\$\{IPA_BUNDLE_TITLE\}/ig, data.title).replace(/\$\{IPA_BUNDLE_VER\}/ig, data.version);
+  return plist;
+}
+
+function makePlistFile(isEnt, callback) {
+  showLoading(true);
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('post', 'https://file.io', true);
+
+  var plist = generatePlistContent({
+    url: isEnt ? appData.entIPA : appData.vipIPA,
+    id: isEnt ? appData.entId : appData.vipId,
+    image: appData.image,
+    version: appData.version,
+    title: appData.title
+  });
+  var blob = new Blob([plist], {type:'application/octet-stream'});
+  
+  // 过期时间1个月
+  var date = new Date();
+  var year = date.getFullYear();
+  var month = date.getMonth();
+  var date = date.getDate();
+  if (month < 11) month = month + 2;
+  else year = year + 1;
+  var dateStr = year;
+  dateStr += '-' + (month < 10 ? ('0' + month) : month);
+  dateStr += '-' + (date < 10 ? ('0' + date) : date);
+  dateStr += 'T23:59:59.590Z';
+
+  var formData = new FormData();
+  formData.append('file', blob, 'manifest.plist');
+  formData.append('expires', dateStr);
+  formData.append('maxDownloads', 1);
+  formData.append('autoDelete', 'true');
+  xhr.addEventListener('load', function(){
+    setTimeout(function(){
+      showLoading(false);
+    }, 3000);
+    var result = JSON.parse(xhr.response);
+    callback(result.link);
+  });
+  xhr.addEventListener('error', function(){
+    showLoading(false);
+  });
+  xhr.send(formData);
+}
+
+function onAppInstall(isEnt) {
   if (isWX) {
     alert('微信中无法安装，请在手机Safari浏览器中打开本页面后，再点击安装');
     return;
+  } else if (isAndroid) {
+    alert('目前暂不支持安卓设备，请使用苹果设备安装');
+    return;
   }
-  window.location.href = 'itms-services://?action=download-manifest&url=' + data.entPlist;
+  
+  makePlistFile(isEnt, function(linkUrl){
+    window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
+  });
 }
 
-function onEntDownload() {
-  window.location.href = data.entIPA;
+function onAppDownload(isEnt) {
+  var url = isEnt ? appData.entIPA : appData.vipIPA;
+  window.location.href = url;
   window.event.returnValue = false;
 }
 
-function onVipDownload() {
-  window.location.href = data.vipIPA;
-  window.event.returnValue = false;
+function showLoading(visible) {
+  var value = visible ? 'initial' : 'none';
+  document.querySelector('.loading-wrapper').style.display = value;
 }
 
 </script>
 </head>
 
-<body>
+<body style="display:inherit;">
   <div class="top">
     <p class="title">《三国英雄录》助手</p>
     <p class="desc">（最新更新：2023-03-06）</p>
@@ -149,12 +389,28 @@ function onVipDownload() {
     </ul>
   </div>
 
+  <div class="loading-wrapper">
+    <div class="loading-box">
+      <div class="loading">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="loading-text">加载中，请稍后...</div>
+    </div>
+  </div>
+
   <div id="install5">
     <p class="dl-title">共享证书安装【2.24更新】</p>
     <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
     <div class="download-links">
       <div>
-        <a href="javascript:void(0);" onclick="onEntInstall()">
+        <a href="javascript:void(0);" onclick="onAppInstall(true)">
           <button type="button">点击安装</button>
         </a>
         <p class="tip">【提醒：如果出现无法安装/无法验证等情况，说明已掉签，请等待更新后再安装】</p>
@@ -188,7 +444,7 @@ function onVipDownload() {
     <p>6、点击“Install Persistence Helper”，弹出选择“Tips”，到此准备工作完成</p>
     <p>7、在手机上用Safari浏览器点击下载下面ipa文件（2个链接任选1个）</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -200,7 +456,7 @@ function onVipDownload() {
     <p class="dl-title">电脑侧载安装【适合所有设备，需电脑配合安装】</p>
     <p>1、在电脑上下载下面ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -225,7 +481,7 @@ function onVipDownload() {
     <p>1、先自行越狱iOS设备，推荐使用 <a href="https://unc0ver.dev" target="_blank"><b>unc0ver越狱</b></a></p>
     <p>2、用Safari浏览器下载游戏ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onVipDownload()" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
