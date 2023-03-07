@@ -119,7 +119,7 @@ button {
 }
 .loading-text {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-top: 12px;
 }
@@ -314,7 +314,9 @@ function uploadPlist(callback) {
   formData.append('maxDownloads', 1);
   formData.append('autoDelete', 'true');
   xhr.addEventListener('load', function(){
-    showLoading(false);
+    setTimeout(function(){
+      showLoading(false);
+    }, 2.0);
     var result = JSON.parse(xhr.response);
     callback(result.link);
   });
