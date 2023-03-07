@@ -93,6 +93,7 @@ button {
 </style>
 <script type="text/javascript">
 var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var isAndroid = /Android/ig.test(navigator.userAgent);
 var data = {
   entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
   entPlist: 'https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/sgyxl-ent-0305b.plist',
@@ -112,13 +113,11 @@ function uploadPlist() {
   // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   // xhr.setRequestHeader('Access-Control-Allow-Credentials', 'true');
   // xhr.setRequestHeader('Access-Control-Allow-Headers', 'Content-type');
-  xhr.setRequestHeader('Content-type', 'multipart/form-data');
+  // xhr.setRequestHeader('Content-Type', 'multipart/form-data');
   // xhr.setRequestHeader('expires', '2099-05-06T14:17:56.590Z');
   // xhr.setRequestHeader('maxDownloads', 1);
   // xhr.setRequestHeader('autoDelete', 'true');
-  xhr.addEventListener('load', function(){
-    console.log('load ok');
-  });
+  
   var plist = generatePlistContent({
     url: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6404b205c8045/sgyxl-ent-0305b.ipa',
     image: 'https://ios.6kw.com/sgyxl1/57.png',
@@ -127,20 +126,33 @@ function uploadPlist() {
     title: '三国英雄录+'
   });
   // var uint8array = new TextEncoder().encode(plist);
-  var blob = new Blob(['abc'], {type:'application/octet-stream'});
-  console.log(blob);
-  // var blob = new Blob([plist], {type:'text/plain;charset=utf-8'});
-  var form = new FormData();
-  form.append('file', blob, 'manifest.plist');
-  form.append('expires', '2099-05-06T14:17:56.590Z');
-  form.append('maxDownloads', 1);
-  form.append('autoDelete', 'true');
-  xhr.send(form);
+  var blob = new Blob([plist], {type:'application/octet-stream'});
+  // var blob = new Blob(['abc'], {type:'text/plain;charset=utf-8'});
+  var formData = new FormData();
+  formData.append('file', blob, 'manifest.plist');
+  formData.append('expires', '2023-11-06T14:17:56.590Z');
+  formData.append('maxDownloads', 1);
+  formData.append('autoDelete', 'true');
+  xhr.addEventListener('load', function(){
+    var result = JSON.parse(xhr.response);
+    data.entPlist = result.link;
+    // var plistXhr = new XMLHttpRequest();
+    // plistXhr.open('get', result.link, true);
+    // plistXhr.setRequestHeader('accept', '*/*');
+    // plistXhr.addEventListener('load', function(){
+    //   console.log(plistXhr.response);
+    // });
+    // plistXhr.send();
+  });
+  xhr.send(formData);
 }
 
 function onEntInstall() {
   if (isWX) {
     alert('微信中无法安装，请在手机Safari浏览器中打开本页面后，再点击安装');
+    return;
+  } else if (isAndroid) {
+    alert('目前暂不支持安卓设备，请使用苹果设备安装');
     return;
   }
   window.location.href = 'itms-services://?action=download-manifest&url=' + data.entPlist;
@@ -161,7 +173,7 @@ uploadPlist();
 </script>
 </head>
 
-<body style="display:none;">
+<body style="display:inherit;">
   <div class="top">
     <p class="title">《三国英雄录》助手</p>
     <p class="desc">（最新更新：2023-03-06）</p>
