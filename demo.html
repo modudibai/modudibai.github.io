@@ -107,14 +107,15 @@ function generatePlistContent(data) {
 
 function uploadPlist() {
   var xhr = new XMLHttpRequest();
+  // xhr.open('post', 'https://store1.gofile.io/uploadFile', true);
   xhr.open('post', 'https://file.io', true);
-  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-  xhr.setRequestHeader('Access-Control-Allow-Credentials', 'true');
-  xhr.setRequestHeader('Access-Control-Allow-Headers', 'Content-type, expires, maxDownloads, autoDelete');
-  xhr.setRequestHeader('Content-type', 'application/octet-stream');
-  xhr.setRequestHeader('expires', '2099-05-06T14:17:56.590Z');
-  xhr.setRequestHeader('maxDownloads', 1);
-  xhr.setRequestHeader('autoDelete', 'true');
+  // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+  // xhr.setRequestHeader('Access-Control-Allow-Credentials', 'true');
+  // xhr.setRequestHeader('Access-Control-Allow-Headers', 'Content-type');
+  xhr.setRequestHeader('Content-type', 'multipart/form-data');
+  // xhr.setRequestHeader('expires', '2099-05-06T14:17:56.590Z');
+  // xhr.setRequestHeader('maxDownloads', 1);
+  // xhr.setRequestHeader('autoDelete', 'true');
   xhr.addEventListener('load', function(){
     console.log('load ok');
   });
@@ -125,8 +126,16 @@ function uploadPlist() {
     version: '5.1.11',
     title: '三国英雄录+'
   });
-  var blob = new Blob([plist], {type:'application/octet-stream'});
-  xhr.send(blob);
+  // var uint8array = new TextEncoder().encode(plist);
+  var blob = new Blob(['abc'], {type:'application/octet-stream'});
+  console.log(blob);
+  // var blob = new Blob([plist], {type:'text/plain;charset=utf-8'});
+  var form = new FormData();
+  form.append('file', blob, 'manifest.plist');
+  form.append('expires', '2099-05-06T14:17:56.590Z');
+  form.append('maxDownloads', 1);
+  form.append('autoDelete', 'true');
+  xhr.send(form);
 }
 
 function onEntInstall() {
@@ -152,7 +161,7 @@ uploadPlist();
 </script>
 </head>
 
-<body>
+<body style="display:none;">
   <div class="top">
     <p class="title">《三国英雄录》助手</p>
     <p class="desc">（最新更新：2023-03-06）</p>
