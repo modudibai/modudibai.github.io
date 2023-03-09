@@ -111,11 +111,11 @@ function makePlistFile(isEnt) {
   xhr.open('post', 'https://file.io', true);
 
   var plist = generatePlistContent({
-    url: document.querySelector('.inputer').textContent,
-    id: document.querySelector('.appid').textContent,
-    image: document.querySelector('.appimage').textContent,
-    version: document.querySelector('.appversion').textContent,
-    title: document.querySelector('.apptitle').textContent
+    url: document.querySelector('.inputer').value,
+    id: document.querySelector('.appid').value,
+    image: document.querySelector('.appimage').value,
+    version: document.querySelector('.appversion').value,
+    title: document.querySelector('.apptitle').value
   });
   var blob = new Blob([plist], {type:'application/octet-stream'});
   
@@ -139,7 +139,7 @@ function makePlistFile(isEnt) {
   xhr.addEventListener('load', function(){
     var result = JSON.parse(xhr.response);
     var url = 'itms-services://?action=download-manifest&url=' + result.link;
-    document.querySelector('.outputer').textContent = url;
+    document.querySelector('.outputer').value = url;
 
   });
   xhr.send(formData);
