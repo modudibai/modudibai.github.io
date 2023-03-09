@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>三国英雄录助手</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<style>
+body{
+  color: #000000d9;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue;
+}
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.desc {
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.dl-title {
+  font-weight: bold;
+  font-size: 18px;
+  background: #ffcc00;
+  padding: 8px 5px;
+}
+.tip{
+  width: 80%;
+  color: #f00;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px auto;
+}
+.features-title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.features-list{
+  background-color: #fff790d9;
+  font-size: 14px;
+  padding: 5px 5px 5px 20px;
+  margin-top: 0px;
+}
+.download-links {
+  margin-top: 12px;
+  text-align: center;
+}
+.download-links a {
+  display: block;
+  margin: 24px 0 0 0;
+}
+.download-links a.link2 {
+  display: inline-block;
+  margin: 4px 0 0 -20px;
+}
+.download-links button {
+  margin-right: 20px;
+}
+a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  color: #fff;
+  background: #0170fe;
+  font-size: 16px;
+  height: auto;
+  padding: 12px 36px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  user-select: none;
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+}
+.red {
+  color: #f00;
+ }
+.footer{
+  margin-top: 60px;
+  color: #666;
+  text-align: center;
+}
+.inputer, .outputer, .appid, .appimage, .appversion, .apptitle {
+  width: 100%;
+  height: 30px;
+}
+</style>
+</style>
+<script type="text/javascript">
+var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var isAndroid = /Android/ig.test(navigator.userAgent);
+
+function generatePlistContent(data) {
+  var plist = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${IPA_URL}</string></dict><dict><key>kind</key><string>full-size-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict><dict><key>kind</key><string>display-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${IPA_BUNDLE_ID}</string><key>bundle-version</key><string>${IPA_BUNDLE_VER}</string><key>kind</key><string>software</string><key>title</key><string>${IPA_BUNDLE_TITLE}</string></dict></dict></array></dict></plist>';
+  plist = plist.replace(/\$\{IPA_URL\}/ig, data.url).replace(/\$\{IPA_IMAGE\}/ig, data.image).replace(/\$\{IPA_BUNDLE_ID\}/ig, data.id).replace(/\$\{IPA_BUNDLE_TITLE\}/ig, data.title).replace(/\$\{IPA_BUNDLE_VER\}/ig, data.version);
+  return plist;
+}
+
+function makePlistFile(isEnt) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('post', 'https://file.io', true);
+
+  var plist = generatePlistContent({
+    url: document.querySelector('.inputer').textContent,
+    id: document.querySelector('.appid').textContent,
+    image: document.querySelector('.appimage').textContent,
+    version: document.querySelector('.appversion').textContent,
+    title: document.querySelector('.apptitle').textContent
+  });
+  var blob = new Blob([plist], {type:'application/octet-stream'});
+  
+  // 过期时间1个月
+  var date = new Date();
+  var year = date.getFullYear();
+  var month = date.getMonth();
+  var date = date.getDate();
+  if (month < 11) month = month + 2;
+  else year = year + 1;
+  var dateStr = year;
+  dateStr += '-' + (month < 10 ? ('0' + month) : month);
+  dateStr += '-' + (date < 10 ? ('0' + date) : date);
+  dateStr += 'T23:59:59.590Z';
+
+  var formData = new FormData();
+  formData.append('file', blob, 'manifest.plist');
+  formData.append('expires', dateStr);
+  formData.append('maxDownloads', 1);
+  formData.append('autoDelete', 'true');
+  xhr.addEventListener('load', function(){
+    var result = JSON.parse(xhr.response);
+    var url = 'itms-services://?action=download-manifest&url=' + result.link;
+    document.querySelector('.outputer').textContent = url;
+
+  });
+  xhr.send(formData);
+}
+
+</script>
+</head>
+
+<body style="display:inherit;">
+  <p>URL:</p>
+  <input class="inputer">
+  <p>ID:</p>
+  <input class="appid">
+  <p>图片地址:</p>
+  <input class="appimage">
+  <p>版本号:</p>
+  <input class="appversion">
+  <p>标题:</p>
+  <input class="apptitle">
+  <p>结果:</p>
+  <input class="outputer">
+  <button onclick="makePlistFile(true)">生成ENT</button>
+  <button onclick="makePlistFile(false)">生成VIP</button>
+
+</body>
