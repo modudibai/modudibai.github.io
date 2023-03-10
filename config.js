@@ -17,6 +17,15 @@ var configData = {
     title: '三国英雄录+',
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
+  sgz: {
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-640afa33365ab/sgz-ent-0305.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640afa305aba5/sgz-vip-0305.ipa',
+    entId: 'com.HKSoft.JinfengEnergApp.1',
+    vipId: 'com.dibai.sgzmjzo',
+    version: '5.4.4',
+    title: '三国志名将传',
+    image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
+  },
   zzxy: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64031df6dbede-64074df22cc4b/zzxy-ent-0304.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64031df6dbede-64074df22cc4b/zzxy-ent-0304.ipa',
