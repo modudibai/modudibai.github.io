@@ -8,7 +8,7 @@ var MDConfigData = {
     title: '三国名将传+',
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
-  6kw: {
+  sgyxl: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6407fed44d0a2/sgyxl-ent-0305b.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404b1ddd82fa-6407fed44d0a2/sgyxl-ent-0305b.ipa',
     entId: 'com.HKSoft.JinfengEnergApp.1',
