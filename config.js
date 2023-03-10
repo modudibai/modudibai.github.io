@@ -7,5 +7,14 @@ var configData = {
     version: '4.2.7',
     title: '三国名将传+',
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
+  },
+  zzxy: {
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64031df6dbede-64074df22cc4b/zzxy-ent-0304.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64031df6dbede-64074df22cc4b/zzxy-ent-0304.ipa',
+    entId: 'com.HKSoft.JinfengEnergApp.1',
+    vipId: 'com.dibai.zzxy',
+    version: '1.1.31',
+    title: '自在西游+',
+    image: 'https://img.tapimg.com/market/lcs/b28ca0b71dc0b3241b280069ad67b5a6_360_v2.png'
   }
 }
