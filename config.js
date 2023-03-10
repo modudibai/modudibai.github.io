@@ -1,4 +1,4 @@
-var configData = {
+var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-63f8e2b37505d-6409496466efc/sgsmjz-ent-0224.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64006f425291c-64094971adad6/sgsmjz-vip-0302.ipa',
