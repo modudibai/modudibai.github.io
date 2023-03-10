@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Plist生成</title>
+<title>三国英雄录助手</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <style>
 body{
@@ -98,9 +98,29 @@ button {
 </style>
 <script type="text/javascript" src="./config.js"></script>
 <script type="text/javascript">
-console.log(configData);
+var appData = null;
+var pubType = true;
 var isWX = /MicroMessenger/ig.test(navigator.userAgent);
 var isAndroid = /Android/ig.test(navigator.userAgent);
+
+function onSelectOption(e) {
+  var appId = document.querySelector('#gameList').value;
+  appData = MDConfigData[appId];
+  onAppDataChange();
+}
+
+function onSelectPublishType(e) {
+  pubType = document.querySelector('#pubType').value == 'true';
+  onAppDataChange();
+}
+
+function onAppDataChange() {
+  document.querySelector('.inputer').value = pubType ? appData.entIPA : appData.vipIPA;
+  document.querySelector('.appid').value = pubType ? appData.entId : appData.vipId;
+  document.querySelector('.appimage').value = appData.image;
+  document.querySelector('.appversion').value = appData.version;
+  document.querySelector('.apptitle').value = appData.title;
+}
 
 function generatePlistContent(data) {
   var plist = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${IPA_URL}</string></dict><dict><key>kind</key><string>full-size-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict><dict><key>kind</key><string>display-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${IPA_BUNDLE_ID}</string><key>bundle-version</key><string>${IPA_BUNDLE_VER}</string><key>kind</key><string>software</string><key>title</key><string>${IPA_BUNDLE_TITLE}</string></dict></dict></array></dict></plist>';
@@ -151,6 +171,18 @@ function makePlistFile(isEnt) {
 </head>
 
 <body style="display:inherit;">
+  <label for="gameList">选择游戏:</label>
+  <select name="gameList" id="gameList" onchange="onSelectOption()">
+    <option value="sgs">三国杀名将传</option>
+    <option value="sgz">三国志名将传</option>
+    <option value="sgyxl">三国英雄录</option>
+    <option value="zzxy">自在西游</option>
+  </select>
+  <label for="pubType">发布类型:</label>
+  <select name="pubType" id="pubType" onchange="onSelectPublishType()">
+    <option value="true">ENT</option>
+    <option value="false">VIP</option>
+  </select>
   <p>URL:</p>
   <input class="inputer">
   <p>ID:</p>
@@ -163,6 +195,7 @@ function makePlistFile(isEnt) {
   <input class="apptitle">
   <p>结果:</p>
   <input class="outputer">
-  <button onclick="makePlistFile(true)">生成Plist</button>
+  <button onclick="makePlistFile(true)">生成ENT</button>
+  <button onclick="makePlistFile(false)">生成VIP</button>
 
 </body>
