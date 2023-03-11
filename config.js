@@ -34,5 +34,11 @@ var MDConfigData = {
     version: '1.1.31',
     title: '自在西游+',
     image: 'https://img.tapimg.com/market/lcs/b28ca0b71dc0b3241b280069ad67b5a6_360_v2.png'
+  },
+  tollstore: {
+    ios14: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
+    ios14raw: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper64e.ipa',
+    ios15: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
+    ios15raw: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper.ipa'
   }
 }
