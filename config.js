@@ -37,7 +37,7 @@ var MDConfigData = {
   },
   trollhelper: {
     ios14: {
-      entIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
       entId: 'com.calc.iphone',
       title: 'TrollHelper(arm64e)',
       version: '1',
