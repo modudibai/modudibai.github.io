@@ -270,7 +270,7 @@ button {
 </style>
 <script type="text/javascript" src="./config.js"></script>
 <script type="text/javascript">
-var appData = MDConfigData.sgyxl;
+// var appData = MDConfigData.sgyxl;
 var isWX = /MicroMessenger/ig.test(navigator.userAgent);
 var isAndroid = /Android/ig.test(navigator.userAgent);
 
@@ -280,7 +280,7 @@ function generatePlistContent(data) {
   return plist;
 }
 
-function makePlistFile(isEnt, callback) {
+function makePlistFile(appData, isEnt, callback) {
   showLoading(true);
 
   var xhr = new XMLHttpRequest();
@@ -325,7 +325,7 @@ function makePlistFile(isEnt, callback) {
   xhr.send(formData);
 }
 
-function onAppInstall(isEnt) {
+function onAppInstall(appData, isEnt) {
   if (isWX) {
     alert('微信中无法安装，请在手机Safari浏览器中打开本页面后，再点击安装');
     return;
@@ -334,12 +334,12 @@ function onAppInstall(isEnt) {
     return;
   }
   
-  makePlistFile(isEnt, function(linkUrl){
+  makePlistFile(appData, isEnt, function(linkUrl){
     window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
   });
 }
 
-function onAppDownload(isEnt) {
+function onAppDownload(appData, isEnt) {
   var url = isEnt ? appData.entIPA : appData.vipIPA;
   window.location.href = url;
   window.event.returnValue = false;
@@ -403,7 +403,7 @@ function showLoading(visible) {
     <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
     <div class="download-links">
       <div>
-        <a href="javascript:void(0);" onclick="onAppInstall(true)">
+        <a href="javascript:void(0);" onclick="onAppInstall(MDConfigData.sgyxl, true)">
           <button type="button">点击安装</button>
         </a>
         <p class="tip">【提醒：如果出现无法安装/无法验证等情况，说明已掉签，请等待更新后再安装】</p>
@@ -416,17 +416,17 @@ function showLoading(visible) {
     <p>1、在手机上使用Safari浏览器下载安装下面的软件（iOS14下载第1个，iOS15下载第2个）</p>
     <div class="download-links">
       <div>
-        <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios14-fast.plist">
+        <a href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios14, true)">
           <button type="button">下载地址（iOS14）</button>
         </a>
-        <a class="link2" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios14-manifest.plist">
+        <a class="link2" href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios14raw, true)">
           <b>（备用下载地址iOS14）</b>
         </a>
       </div>
-      <a href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios15-manifest.plist">
+      <a href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios15, true)">
         <button type="button">下载地址（iOS15）</button>
       </a>
-      <a class="link2" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/modudibai/modudibai.github.io@main/res/trollstore-ios15-fast.plist">
+      <a class="link2" href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios15raw, true)">
         <b>（备用下载地址iOS15）</b>
       </a>
     </div>
@@ -437,7 +437,7 @@ function showLoading(visible) {
     <p>6、点击“Install Persistence Helper”，弹出选择“Tips”，到此准备工作完成</p>
     <p>7、在手机上用Safari浏览器点击下载下面ipa文件（2个链接任选1个）</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(MDConfigData.sgyxl, false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -449,7 +449,7 @@ function showLoading(visible) {
     <p class="dl-title">电脑侧载安装【适合所有设备，需电脑配合安装】</p>
     <p>1、在电脑上下载下面ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(MDConfigData.sgyxl, false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
@@ -474,7 +474,7 @@ function showLoading(visible) {
     <p>1、先自行越狱iOS设备，推荐使用 <a href="https://unc0ver.dev" target="_blank"><b>unc0ver越狱</b></a></p>
     <p>2、用Safari浏览器下载游戏ipa文件</p>
     <div class="download-links">
-      <a href="javascript(void);" onclick="onAppDownload(false)" target="_blank">
+      <a href="javascript(void);" onclick="onAppDownload(MDConfigData.sgyxl, false)" target="_blank">
         <button type="button">下载地址</button>
       </a>
     </div>
