@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4e08d2c40-640c4e4d86711/zzxy-ent-0311.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4e08d2c40-640c4e4d86711/zzxy-ent-0311.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4e08d2c40-640c90c9a7b9d/zzxy-ent-0311.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4e08d2c40-640c90c9a7b9d/zzxy-ent-0311.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
