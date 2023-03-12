@@ -93,6 +93,7 @@ button {
 .inputer, .outputer, .appid, .appimage, .appversion, .apptitle {
   width: 100%;
   height: 30px;
+  font-size: 14px;
 }
 </style>
 </style>
@@ -166,6 +167,14 @@ function makePlistFile(isEnt) {
   });
   xhr.send(formData);
 }
+  
+function copyToClipBoard() {
+  try {
+    var content = document.querySelector('.outputer').value;
+    navigator.clipboard.writeText(content);
+  } catch (err) {
+  }
+}
 
 </script>
 </head>
@@ -195,6 +204,7 @@ function makePlistFile(isEnt) {
   <input class="apptitle">
   <p>结果:</p>
   <input class="outputer">
-  <button onclick="makePlistFile(pubType)">生成Plist</button>
+  <p><button onclick="makePlistFile(pubType)">生成Plist</button></p>
+  <p><button onclick="copyToClipBoard()">复制到剪贴板</button></p>
 
 </body>
