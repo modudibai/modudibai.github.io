@@ -19,7 +19,7 @@ var MDConfigData = {
   },
   sgz: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-640feab01b457/sgz-ent-0305.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640feab012cb2/sgz-vip-0305.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640feb81ba02e/sgz-vip-0305.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.sgzmjzo',
     version: '5.4.4',
