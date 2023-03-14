@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-640afa33365ab/sgz-ent-0305.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640afa305aba5/sgz-vip-0305.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-640feab01b457/sgz-ent-0305.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640feab012cb2/sgz-vip-0305.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.sgzmjzo',
     version: '5.4.4',
