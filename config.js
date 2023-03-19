@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4432d87df-640c449e2df9c/sgyxl-ent-0311.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c4432d87df-640c449e2df9c/sgyxl-ent-0311.ipa',
+    entIPA: 'https://tmp-asia.vx-cdn.com/file-64172b38c90e2-64172bc2b2a54/sgyxl-ent-0311.ipa',
+    vipIPA: 'https://tmp-asia.vx-cdn.com/file-64172b38c90e2-64172bc2b2a54/sgyxl-ent-0311.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
