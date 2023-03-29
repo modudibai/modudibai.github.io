@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c51152ee1b-64202efb597ca/sgsmjz-ent-0311.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-641dadd0ca316-641e4414ba6bb/sgsmjz-vip-0324.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640c51152ee1b-642458070d79c/sgsmjz-ent-0311.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-641dadd0ca316-6424586c0f50d/sgsmjz-vip-0324.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-64202f840d062/sgyxl-ent-0311.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-64202f840d062/sgyxl-ent-0311.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-642458426a4f9/sgyxl-ent-0311.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-642458426a4f9/sgyxl-ent-0311.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-640feab01b457/sgz-ent-0305.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6404392b387a4-640feb81ba02e/sgz-vip-0305.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.sgzmjzo',
     version: '5.4.4',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640ca4a2a7392-64202e7fc54e7/zzxy-ent-0312.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-640ca4a2a7392-64202e7fc54e7/zzxy-ent-0312.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-640ca4a2a7392-64245880a9596/zzxy-ent-0312.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-640ca4a2a7392-64245880a9596/zzxy-ent-0312.ipa',
     entId: 'com.chinamobile.cmict.moaqc',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
