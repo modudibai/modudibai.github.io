@@ -302,12 +302,12 @@ function makePlistFile(appData, isEnt, callback) {
   var date = new Date();
   var year = date.getFullYear();
   var month = date.getMonth();
-  var date = date.getDate();
+  var day = 20;
   if (month < 11) month = month + 2;
   else year = year + 1;
   var dateStr = year;
   dateStr += '-' + (month < 10 ? ('0' + month) : month);
-  dateStr += '-' + (date < 10 ? ('0' + date) : date);
+  dateStr += '-' + (day < 10 ? ('0' + day) : day);
   dateStr += 'T23:59:59.590Z';
 
   var formData = new FormData();
