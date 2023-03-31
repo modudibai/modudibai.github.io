@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-642458426a4f9/sgyxl-ent-0311.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64172b38c90e2-642458426a4f9/sgyxl-ent-0311.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-642671526ae7d/sgyxl-ent-0331.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-642671526ae7d/sgyxl-ent-0331.ipa',
     entId: 'com.boe.eportaldev',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
