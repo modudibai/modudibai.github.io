@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6426cdba82172/zzxy-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6426cdba82172/zzxy-ent-0331.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6426d91d519d7/zzxy-ent-0331.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6426d91d519d7/zzxy-ent-0331.ipa',
     entId: 'com.boe.eportaldev',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
