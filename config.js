@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64280000f39a4-6430d29782a24/sgs-ent-0331.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-641dadd0ca316-6430d2ad15653/sgsmjz-vip-0324.ipa',
-    entId: 'com.boe.eportaldev',
+    entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
-    entId: 'com.boe.eportaldev',
+    entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
-    entId: 'com.boe.eportaldev',
+    entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.dibai.sgzmjzo',
     version: '5.4.4',
     title: '三国志名将传',
@@ -29,7 +29,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
-    entId: 'com.boe.eportaldev',
+    entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
