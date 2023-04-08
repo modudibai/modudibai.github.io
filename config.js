@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64280000f39a4-642f7dddb5ce5/sgs-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-641dadd0ca316-6424586c0f50d/sgsmjz-vip-0324.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64280000f39a4-6430d29782a24/sgs-ent-0331.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-641dadd0ca316-6430d2ad15653/sgsmjz-vip-0324.ipa',
     entId: 'com.boe.eportaldev',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-642f7df00fb56/sgyxl-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-642f7df00fb56/sgyxl-ent-0331.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
     entId: 'com.boe.eportaldev',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-642f7e046924c/zzxy-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-642f7e046924c/zzxy-ent-0331.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
     entId: 'com.boe.eportaldev',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
