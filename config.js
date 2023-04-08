@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64266aba5f011-6430d2bde4fe9/sgyxl-ent-0331.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6431878ad2b4b-64318866a89cd/sgyxl-ent-0408.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6431878ad2b4b-64318866a89cd/sgyxl-ent-0408.ipa',
     entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
