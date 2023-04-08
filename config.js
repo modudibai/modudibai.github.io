@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64265d43bf66a-6430d2d53cc47/zzxy-ent-0331.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-643138533a0de-643139298cea1/zzxy-ent-0408.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-643138533a0de-643139298cea1/zzxy-ent-0408.ipa',
     entId: 'jp.co.shiseido.PBPDEV',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
