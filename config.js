@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6431878ad2b4b-64377aeb140b1/sgyxl-ent-0408.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6431878ad2b4b-64377aeb140b1/sgyxl-ent-0408.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6441382b499af-644139a810330/yxl-ent-0420.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6441382b499af-644139a810330/yxl-ent-0420.ipa',
     entId: 'com.xw.game.asfx',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
