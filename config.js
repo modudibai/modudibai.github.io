@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64314667510eb-6441f00c896fe/sgs-ent-0408.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64411fd816dec-6441eff6a6316/sgs-vip-0420.ipa',
-    entId: 'com.xw.game.asfx',
+    entId: 'com.beidousdk.beijing123',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6441382b499af-644139a810330/yxl-ent-0420.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6441382b499af-644139a810330/yxl-ent-0420.ipa',
-    entId: 'com.xw.game.asfx',
+    entId: 'com.beidousdk.beijing123',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
-    entId: 'com.xw.game.asfx',
+    entId: 'com.beidousdk.beijing123',
     vipId: 'com.dibai.sgzmjzo',
     version: '5.4.4',
     title: '三国志名将传',
@@ -29,7 +29,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441ef4c1002d/zzxy-ent-0420.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441ef4c1002d/zzxy-ent-0420.ipa',
-    entId: 'com.xw.game.asfx',
+    entId: 'com.beidousdk.beijing123',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
