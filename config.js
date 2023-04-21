@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441314b774cd/zzxy-ent-0420.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441314b774cd/zzxy-ent-0420.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441ef4c1002d/zzxy-ent-0420.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-644130ed8d011-6441ef4c1002d/zzxy-ent-0420.ipa',
     entId: 'com.xw.game.asfx',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
