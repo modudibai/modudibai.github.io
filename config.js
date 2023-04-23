@@ -18,12 +18,12 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
-    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64043cf34abdd-6424589e96b71/sgz-ent-0305.ipa',
+    entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64451d4f5cb12-64451f1513bb2/sgz-0420.ipa',
+    vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64451d4f5cb12-64451f1513bb2/sgz-0420.ipa',
     entId: 'com.beidousdk.beijing123',
-    vipId: 'com.dibai.sgzmjzo',
-    version: '5.4.4',
-    title: '三国志名将传',
+    vipId: 'com.dibai.sgzmjz',
+    version: '5.1.11',
+    title: '三国志名将+',
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
