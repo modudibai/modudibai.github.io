@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64433e5912898-64447c995c8f6/sgs-ent-0421.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64411fd816dec-644746683f3e3/sgs-vip-0420.ipa',
-    entId: 'com.beidousdk.beijing123',
+    entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6442b4c15f3e5-64447c865f549/yxl-ent-0421.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6442b4c15f3e5-64447c865f549/yxl-ent-0421.ipa',
-    entId: 'com.beidousdk.beijing123',
+    entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-64451d4f5cb12-64451f1513bb2/sgz-0420.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-64451d4f5cb12-64451f1513bb2/sgz-0420.ipa',
-    entId: 'com.beidousdk.beijing123',
+    entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-azeroth.vx-cdn.com/file-6442a7cc96dfe-64447c6fc2c1c/zzxy-ent-0421.ipa',
     vipIPA: 'https://tmp-azeroth.vx-cdn.com/file-6442a7cc96dfe-64447c6fc2c1c/zzxy-ent-0421.ipa',
-    entId: 'com.beidousdk.beijing123',
+    entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
