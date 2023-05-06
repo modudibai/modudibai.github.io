@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-6453151d423a3/sgs-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64411fd816dec-645314ff064b5/sgs-vip-0420.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-6455a704c5a75/sgs-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64411fd816dec-6455a7111e40c/sgs-vip-0420.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-6453154389a57/yxl-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-6453154389a57/yxl-ent-0426.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-6455a6da5e185/yxl-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-6455a6da5e185/yxl-ent-0426.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6453155747fdf/sgz-0420.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6453155747fdf/sgz-0420.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-6453152d5deb5/zzxy-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-6453152d5deb5/zzxy-ent-0426.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-6455a6b2e5e4b/zzxy-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-6455a6b2e5e4b/zzxy-ent-0426.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
