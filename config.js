@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-64602fff37fe3/sgs-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64411fd816dec-645b66747ae19/sgs-vip-0420.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-646ee7b741362/sgs-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-646ee7b741362/sgs-ent-0426.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-64602ffaa5c6f/yxl-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-64602ffaa5c6f/yxl-ent-0426.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-646ee7b9373dc/yxl-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-646ee7b9373dc/yxl-ent-0426.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-646030022a25c/zzxy-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-646030022a25c/zzxy-ent-0426.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-646ee7ba69167/zzxy-ent-0426.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-646ee7ba69167/zzxy-ent-0426.ipa',
     entId: 'com.chinamobile.jsfqdapp',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
