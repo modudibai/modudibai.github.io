@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-647076ba2c1d6/sgs-ent-0426.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6e44132ae-647076ba2c1d6/sgs-ent-0426.ipa',
-    entId: 'com.chinamobile.jsfqdapp',
+    entId: 'com.hcgov.mqsbtest',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-647076ba56436/yxl-ent-0426.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-647076ba56436/yxl-ent-0426.ipa',
-    entId: 'com.chinamobile.jsfqdapp',
+    entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
-    entId: 'com.chinamobile.jsfqdapp',
+    entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-647076bc8a38e/zzxy-ent-0426.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6022c886b-647076bc8a38e/zzxy-ent-0426.ipa',
-    entId: 'com.chinamobile.jsfqdapp',
+    entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
