@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-647076ba56436/yxl-ent-0426.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-644a6b0631204-647076ba56436/yxl-ent-0426.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64719c7e7fd45/yxl-ent-0527.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64719c7e7fd45/yxl-ent-0527.ipa',
     entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
