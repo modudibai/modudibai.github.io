@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64716a6a32e67-6476e57840f06/sgs-ent-0527.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6474c3393fc76-6476e572803ed/sgs-vip-0529.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64716a6a32e67-64782f739fd9f/sgs-ent-0527.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6474c3393fc76-64782f2f11a79/sgs-vip-0529.ipa',
     entId: 'com.hcgov.mqsbtest',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-6472b0d600632/yxl-ent-0527.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-6472b0d600632/yxl-ent-0527.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
     entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-6476e57269c14/zzxy-ent-0527.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-6476e57269c14/zzxy-ent-0527.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
     entId: 'com.hcgov.mqsbtest',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
