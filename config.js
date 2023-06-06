@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64716a6a32e67-64782f739fd9f/sgs-ent-0527.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-6474c3393fc76-64782f2f11a79/sgs-vip-0529.ipa',
-    entId: 'com.hcgov.mqsbtest',
+    entId: 'com.xcmg.qms',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
-    entId: 'com.hcgov.mqsbtest',
+    entId: 'com.xcmg.qms',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
-    entId: 'com.hcgov.mqsbtest',
+    entId: 'com.xcmg.qms',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
-    entId: 'com.hcgov.mqsbtest',
+    entId: 'com.xcmg.qms',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
