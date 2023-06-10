@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64716a6a32e67-64782f739fd9f/sgs-ent-0527.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-6483ef53298f6-6483efbc8a984/sgs-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-6474c3393fc76-64782f2f11a79/sgs-vip-0529.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.sanguosha.mjzoo',
@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64718aa49f4d6-64782f2ed3f22/yxl-ent-0527.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-6483e9339d3b0-6483efbc937a9/yxl-ent-0607.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6483e9339d3b0-6483efbc937a9/yxl-ent-0607.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-647174f14022a-64782f2f0df60/zzxy-ent-0527.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-6483ec96387ee-6483efbc20ef3/zzxy-ent-0607.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6483ec96387ee-6483efbc20ef3/zzxy-ent-0607.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
