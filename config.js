@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64451d4f5cb12-6455a73063918/sgz-0420.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
