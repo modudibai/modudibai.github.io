@@ -1,7 +1,15 @@
 var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec52e4638f-649fb3c91dfb9/sgs-ent-0607.ipa',
-    entIPA2: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0607.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-649e671e411d0-649f9ed180657/sgs-vip-0630.ipa',
+    entId: 'com.xcmg.qms',
+    vipId: 'com.sanguosha.mjzoo',
+    version: '4.2.7',
+    title: '三国名将传+',
+    image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
+  },
+  sgs2: {
+    entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-649e671e411d0-649f9ed180657/sgs-vip-0630.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.sanguosha.mjzoo',
