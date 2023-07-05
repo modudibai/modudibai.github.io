@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec52e4638f-64a4d2567cec1/sgs-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64a138c111a49-64a4d24f05ab6/sgs-vip-0702.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec52e4638f-64a5498a3ed67/sgs-ent-0607.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64a138c111a49-64a54989b93ff/sgs-vip-0702.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -10,7 +10,7 @@ var MDConfigData = {
   },
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64a138c111a49-64a4d24f05ab6/sgs-vip-0702.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64a138c111a49-64a54989b93ff/sgs-vip-0702.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a29926c5ffb/yxl-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a29926c5ffb/yxl-ent-0607.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
     entId: 'com.xcmg.qms',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
