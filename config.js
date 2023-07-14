@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec52e4638f-64a82a2c91a13/sgs-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64ab922c6b622/sgs-vip-0710.ipa',
-    entId: 'com.xcmg.qms',
+    entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64ab922c6b622/sgs-vip-0710.ipa',
-    entId: 'com.xcmg.qms',
+    entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
-    entId: 'com.xcmg.qms',
+    entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
-    entId: 'com.xcmg.qms',
+    entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64852fc94c67c-64a0f5397f77d/zzxy-ent-0607.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64852fc94c67c-64a0f5397f77d/zzxy-ent-0607.ipa',
-    entId: 'com.xcmg.qms',
+    entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
