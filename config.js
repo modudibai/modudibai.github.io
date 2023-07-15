@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64852fc94c67c-64a0f5397f77d/zzxy-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64852fc94c67c-64a0f5397f77d/zzxy-ent-0607.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b2035aebd0c/zzxy-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b2035aebd0c/zzxy-ent-0714.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
