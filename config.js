@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b2002e9eeca/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b2002f09051/sgs-vip-0710.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b201d4d7b04/sgs-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b201d5e3f52/sgs-vip-0710.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -10,7 +10,7 @@ var MDConfigData = {
   },
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b2002f09051/sgs-vip-0710.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b201d5e3f52/sgs-vip-0710.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-648ec8128c3c4-64a5499004fd2/yxl-ent-0607.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b201e234233/yxl-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b201e234233/yxl-ent-0714.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
