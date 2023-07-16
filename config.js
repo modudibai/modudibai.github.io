@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b34f1bf25c3/sgs-ent-0714.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b375ef9ed59/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b34fab87461/sgs-vip-0710.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b34f1bf3e46/yxl-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b34f1bf3e46/yxl-ent-0714.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b375f32fe92/yxl-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b201c649336-64b375f32fe92/yxl-ent-0714.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b34f1c017ff/zzxy-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b34f1c017ff/zzxy-ent-0714.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b375f2471b0/zzxy-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b2034841262-64b375f2471b0/zzxy-ent-0714.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
