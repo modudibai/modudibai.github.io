@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b61e37c1c5c/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b61e39dd7ec/sgs-vip-0710.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b6724726686/sgs-ent-0714.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b67246f3709/sgs-vip-0710.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
