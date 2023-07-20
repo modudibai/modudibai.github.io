@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64b10016cfda3-64b743395c8a5/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b7433671a56/sgs-vip-0710.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b8e2df46c20-64b8e3c552d49/sgs-vip-0720.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -10,7 +10,7 @@ var MDConfigData = {
   },
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ab7dc6820c3-64b7433671a56/sgs-vip-0710.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64b8e2df46c20-64b8e3c552d49/sgs-vip-0720.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
