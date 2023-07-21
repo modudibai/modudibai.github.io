@@ -28,7 +28,7 @@ var MDConfigData = {
   },
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-6491c3257dbe3-6491c349d96e6/sgz-0420.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ba4ef8df517-64ba5054c0461/sgz-vip-0721.ipa',
     entId: 'com.sany.trucklinkcustomer',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
