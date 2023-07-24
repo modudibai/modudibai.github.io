@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbab2a533eb-64bdcdb210d37/sgs-ent-0722.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64bdf7df5b880/sgs-vip-0724.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbab2a533eb-64be6aece9c49/sgs-ent-0722.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
     entId: 'cn.migu.moa',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -10,7 +10,7 @@ var MDConfigData = {
   },
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64bdcf673ae2d/sgs-vip-0724.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
     entId: 'cn.migu.moa',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
