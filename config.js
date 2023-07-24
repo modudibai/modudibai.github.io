@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64bc822e49521/yxl-ent-0722.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64bc822e49521/yxl-ent-0722.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64bdcde265da9/yxl-ent-0722.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64bdcde265da9/yxl-ent-0722.ipa',
     entId: 'cn.migu.moa',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64bc822dd6b8f/zzxy-ent-0722.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64bc822dd6b8f/zzxy-ent-0722.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64bdcde26bcb6/zzxy-ent-0722.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64bdcde26bcb6/zzxy-ent-0722.ipa',
     entId: 'cn.migu.moa',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
