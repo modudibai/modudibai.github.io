@@ -19,7 +19,7 @@ var MDConfigData = {
   },
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64c1cbee97975/yxl-ent-0722.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbafeebd880-64c1cbee97975/yxl-ent-0722.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64c9ee5035d44-64c9ee7a95d90/yxl-0802.ipa',
     entId: 'com.painzisima.nmsl',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
