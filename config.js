@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64ccaa5baf16f-64cf5904242d4/sgs-ent-0802.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64d0e38318e5e/sgs-vip-0724.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e4f73f979-64d0e9679568d/sgs-ent-0807.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64d0e95e9fb01/sgs-vip-0724.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64ca3f434960e-64cf59057f376/yxl-ent-0802.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e6cb81b06-64d0e96891a2d/yxl-ent-0807.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64c9ee5035d44-64cc59d67cedb/yxl-0802.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.sgyxl',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64c1cbef8b918/zzxy-ent-0722.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64c1cbef8b918/zzxy-ent-0722.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e7e49a76d-64d0e9688fd56/zzxy-ent-0807.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e7e49a76d-64d0e9688fd56/zzxy-ent-0807.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
