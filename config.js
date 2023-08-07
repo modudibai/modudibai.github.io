@@ -1,8 +1,8 @@
 var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64ccaa5baf16f-64cf5904242d4/sgs-ent-0802.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64d0ce75a4145/sgs-vip-0724.ipa',
-    entId: 'com.reci.scan',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64d0e38318e5e/sgs-vip-0724.ipa',
+    entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.reci.scan',
+    entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64ca3f434960e-64cf59057f376/yxl-ent-0802.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64c9ee5035d44-64cc59d67cedb/yxl-0802.ipa',
-    entId: 'com.reci.scan',
+    entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64cb4065a2bef/sgz-vip-0802.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64cb4065a2bef/sgz-vip-0802.ipa',
-    entId: 'com.reci.scan',
+    entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64c1cbef8b918/zzxy-ent-0722.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bbad124d3e7-64c1cbef8b918/zzxy-ent-0722.ipa',
-    entId: 'com.reci.scan',
+    entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
