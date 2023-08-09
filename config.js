@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e7e49a76d-64d389c127250/zzxy-ent-0807.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e7e49a76d-64d389c127250/zzxy-ent-0807.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64d3a04ee6db1/zzxy-ent-0807.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64d3a04ee6db1/zzxy-ent-0807.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
