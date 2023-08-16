@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e4f73f979-64db11fbc9863/sgs-ent-0807.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e4f73f979-64dcfbf1d8d78/sgs-ent-0807.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64db13bf70f4c-64db13de91473/sgs-vip-0815.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.sanguosha.mjzoo',
