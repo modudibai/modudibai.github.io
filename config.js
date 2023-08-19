@@ -19,7 +19,7 @@ var MDConfigData = {
   },
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e6cb81b06-64e021e397cef/yxl-ent-0807.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64d0ee002d02f/yxl-dist-0807.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64e026520a177/yxl-dist-0807.ipa',
     entId: 'com.srcb.heros.XJLAppReplay',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
