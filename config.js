@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64dd9f1ebeb7f-64e58ca92221e/sgs-ent-0807.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64e82a416b9d4-64e8344f95f80/sgs-ent-0825.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64e48901d55f7-64e58bc0d1420/sgs-vip-0822.ipa',
     entId: 'com.fasco.flight',
     vipId: 'com.sanguosha.mjzoo',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e6cb81b06-64e41ab2a5383/yxl-ent-0807.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64e82debea0a6-64e8344fc326f/yxl-ent-0825.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64e026520a177/yxl-dist-0807.ipa',
     entId: 'com.fasco.flight',
     vipId: 'com.dibai.sgyxl',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64e41ab37a180/zzxy-ent-0807.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64e41ab37a180/zzxy-ent-0807.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64e82bf31ca63-64e8344f4f8a0/zzxy-ent-0825.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64e82bf31ca63-64e8344f4f8a0/zzxy-ent-0825.ipa',
     entId: 'com.fasco.flight',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
