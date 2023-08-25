@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64dd9f1ebeb7f-64e58ca92221e/sgs-ent-0807.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64e48901d55f7-64e58bc0d1420/sgs-vip-0822.ipa',
-    entId: 'com.srcb.heros.XJLAppReplay',
+    entId: 'com.fasco.flight',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.srcb.heros.XJLAppReplay',
+    entId: 'com.fasco.flight',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64d0e6cb81b06-64e41ab2a5383/yxl-ent-0807.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64e026520a177/yxl-dist-0807.ipa',
-    entId: 'com.srcb.heros.XJLAppReplay',
+    entId: 'com.fasco.flight',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64cb4065a2bef/sgz-vip-0802.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64cb4065a2bef/sgz-vip-0802.ipa',
-    entId: 'com.srcb.heros.XJLAppReplay',
+    entId: 'com.fasco.flight',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64e41ab37a180/zzxy-ent-0807.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d39e42a221f-64e41ab37a180/zzxy-ent-0807.ipa',
-    entId: 'com.srcb.heros.XJLAppReplay',
+    entId: 'com.fasco.flight',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
