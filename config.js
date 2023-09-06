@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64f537d88ab8e/sgz-vip-0802.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64ca759ae6288-64f537d88ab8e/sgz-vip-0802.ipa',
+    entIPA: 'https://tmp-titan.vx-cdn.com/file-64f81dcf1bd19-64f81e3c48b9e/sgz.ipa',
+    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64f81dcf1bd19-64f81e3c48b9e/sgz.ipa',
     entId: 'com.gzstrong.driver2',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
