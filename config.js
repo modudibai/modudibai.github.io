@@ -1,8 +1,8 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd3.vx-cdn.com/file-64e9a2b14d9a2-65005dbcb2f67/sgs-ent-0826.ipa',
+    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-65014ac27a257/sgs-ent-0913.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64e48901d55f7-64fa7e5eb8cc5/sgs-vip-0822.ipa',
-    entId: 'com.gzstrong.driver2',
+    entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.gzstrong.driver2',
+    entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-hd3.vx-cdn.com/file-64e9a58e75fc3-65002ba212884/yxl-ent-0826.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64f2a1ce9ce72/yxl-dist-0807.ipa',
-    entId: 'com.gzstrong.driver2',
+    entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgyxl',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,16 +29,16 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-titan.vx-cdn.com/file-64f81dcf1bd19-64f81e3c48b9e/sgz.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64f81dcf1bd19-64f81e3c48b9e/sgz.ipa',
-    entId: 'com.gzstrong.driver2',
+    entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd3.vx-cdn.com/file-64e9a697a8d19-65002ba310d60/zzxy-ent-0826.ipa',
-    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-64e9a697a8d19-65002ba310d60/zzxy-ent-0826.ipa',
-    entId: 'com.gzstrong.driver2',
+    entIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-65014ac278794/zzxy-ent-0913.ipa',
+    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-65014ac278794/zzxy-ent-0913.ipa',
+    entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
