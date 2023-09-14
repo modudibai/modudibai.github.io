@@ -27,7 +27,7 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd4.vx-cdn.com/file-6502896b74dbf-6502fe61b550e/sgz-ent-0913.ipa',
+    entIPA: 'https://tmp-hd4.vx-cdn.com/file-6502896b74dbf-650312ca1ce25/sgz-ent-0913.ipa',
     vipIPA: 'https://tmp-hd9.vx-cdn.com/file-64f81dcf1bd19-6502653fd7ebf/sgz.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgzmjz',
