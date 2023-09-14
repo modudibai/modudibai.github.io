@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-650186047110f/sgs-ent-0913.ipa',
+    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-650250a1bb245/sgs-ent-0913.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64e48901d55f7-64fa7e5eb8cc5/sgs-vip-0822.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-65018605904b7/zzxy-ent-0913.ipa',
-    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-65018605904b7/zzxy-ent-0913.ipa',
+    entIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-650250a18932e/zzxy-ent-0913.ipa',
+    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-650250a18932e/zzxy-ent-0913.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
