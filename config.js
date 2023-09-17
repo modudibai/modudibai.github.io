@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd3.vx-cdn.com/file-64e9a58e75fc3-65002ba212884/yxl-ent-0826.ipa',
+    entIPA: 'https://tmp-hd7.vx-cdn.com/file-65070406c90c2-650708dbae27a/yxl-ent-0913.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64f2a1ce9ce72/yxl-dist-0807.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgyxl',
