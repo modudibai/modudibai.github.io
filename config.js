@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-6506fc2e22df2/sgs-ent-0913.ipa',
-    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-650292a92a6e2-6506fc2e8210d/sgs-vip-0914.ipa',
+    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-650849d6d7e6b/sgs-ent-0913.ipa',
+    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-650292a92a6e2-650849d6d9c0e/sgs-vip-0914.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd7.vx-cdn.com/file-65070406c90c2-650708dbae27a/yxl-ent-0913.ipa',
+    entIPA: 'https://tmp-hd7.vx-cdn.com/file-65070406c90c2-650849d6db91a/yxl-ent-0913.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64d0edde9306f-64f2a1ce9ce72/yxl-dist-0807.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgyxl',
@@ -27,7 +27,7 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd4.vx-cdn.com/file-6502896b74dbf-6506fc3899615/sgz-ent-0913.ipa',
+    entIPA: 'https://tmp-hd4.vx-cdn.com/file-6502896b74dbf-650849dca1166/sgz-ent-0913.ipa',
     vipIPA: 'https://tmp-hd9.vx-cdn.com/file-64f81dcf1bd19-6502653fd7ebf/sgz.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgzmjz',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-6506fc36a19cf/zzxy-ent-0913.ipa',
-    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-6506fc36a19cf/zzxy-ent-0913.ipa',
+    entIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-650849d99f015/zzxy-ent-0913.ipa',
+    vipIPA: 'https://tmp-hd3.vx-cdn.com/file-6501471788004-650849d99f015/zzxy-ent-0913.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
