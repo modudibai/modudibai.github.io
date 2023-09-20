@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-650849d6d7e6b/sgs-ent-0913.ipa',
-    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-650292a92a6e2-650849d6d9c0e/sgs-vip-0914.ipa',
+    entIPA: 'https://tmp-hd9.vx-cdn.com/file-650143b8c8c89-650a7ca01491a/sgs-ent-0913.ipa',
+    vipIPA: 'https://tmp-hd8.vx-cdn.com/file-650a7c1c47ada-650a7c8ec2464/sgs-vip-0920.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
