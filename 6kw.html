@@ -289,7 +289,7 @@ function makePlistFile(appData, isEnt, callback) {
   var xhr = new XMLHttpRequest();
   xhr.open('post', 'https://file.io', true);
   //xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-  xhr.withCredentials = true;
+  //xhr.withCredentials = true;
 
   var plist = generatePlistContent({
     url: isEnt ? appData.entIPA : appData.vipIPA,
