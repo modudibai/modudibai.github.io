@@ -287,6 +287,7 @@ function makePlistFile(appData, isEnt, callback) {
   showLoading(true);
 
   var xhr = new XMLHttpRequest();
+  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   xhr.open('post', 'https://file.io', true);
 
   var plist = generatePlistContent({
