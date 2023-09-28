@@ -283,6 +283,23 @@ function generatePlistContent(data) {
   return plist;
 }
 
+function getTmpLinkDownloadUrl() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('post', 'https://chrome.browserless.io/function?token=816324ac-29e9-4465-8d1f-3e8eca68cd38', true);
+  var formData = new FormData();
+  formData.append('code', 'module.exports=async({page,context})=>{const{url}=context;await page.goto(url);var data=await page.evaluate(()=>{return new Promise(resolve=>{setTimeout(()=>{var downloadBtn=document.querySelector(\".btn_copy_downloadurl_for_other\");var downloadUrl;if(downloadBtn){downloadUrl=downloadBtn.getAttribute(\"data-clipboard-text\")}resolve(downloadUrl)},8000)})});return{data}}');
+  formData.append('context', '{"url": "https://www.tmp.link/?tmpui_page=/file&ukey=650143b8c8c89"}');
+  xhr.addEventListener('load', function(){
+    var result = JSON.parse(xhr.response);
+    console.log('tmplink:', result);
+  });
+  xhr.addEventListener('error', function(){
+    //showLoading(false);
+  });
+  xhr.send(formData);
+}
+getTmpLinkDownloadUrl();
+
 function makePlistFile(appData, isEnt, callback) {
   showLoading(true);
 
