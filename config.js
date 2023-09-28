@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-echo.vx-cdn.com/file-650143b8c8c89-6514526b78c61/sgs-ent-0913.ipa',
-    vipIPA: 'https://tmp-echo.vx-cdn.com/file-650f9b56ab594-651405dc4bb8d/sgs-vip-0924.ipa',
+    entIPA: 'https://tmp-echo.vx-cdn.com/file-650143b8c8c89-6514c4e15ee02/sgs-ent-0913.ipa',
+    vipIPA: 'https://tmp-echo.vx-cdn.com/file-650f9b56ab594-6514c4e07363e/sgs-vip-0924.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-echo.vx-cdn.com/file-65070406c90c2-651405dc49f2e/yxl-ent-0913.ipa',
+    entIPA: 'https://tmp-echo.vx-cdn.com/file-65070406c90c2-6514c4e462f13/yxl-ent-0913.ipa',
     vipIPA: 'https://tmp-echo.vx-cdn.com/file-64d0edde9306f-650ba1c094371/yxl-dist-0807.ipa',
     entId: 'com.manulife-sinochem.svvr-remote',
     vipId: 'com.dibai.sgyxl',
