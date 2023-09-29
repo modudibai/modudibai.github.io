@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-echo.vx-cdn.com/file-65164308ea52b-65164eed1b611/sgs-ent-0929.ipa',
-    vipIPA: 'https://tmp-echo.vx-cdn.com/file-650f9b56ab594-65163a90e304b/sgs-vip-0924.ipa',
+    entIPA: 'https://tmp-echo.vx-cdn.com/file-6516576015d1a-6516578fe0696/sgs-ent-0929.ipa',
+    vipIPA: 'https://tmp-echo.vx-cdn.com/file-65165642162a0-65165790d281c/sgs-vip-0929.ipa',
     entId: 'com.sxqc.yangzhan',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
