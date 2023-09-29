@@ -1,6 +1,6 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-echo.vx-cdn.com/file-6516576015d1a-65169f422aa26/sgs-ent-0929.ipa',
+    entIPA: 'https://tmp-echo.vx-cdn.com/file-6516576015d1a-6516ad4c758d9/sgs-ent-0929.ipa',
     vipIPA: 'https://tmp-echo.vx-cdn.com/file-65165642162a0-65169f4254cc6/sgs-vip-0929.ipa',
     entId: 'com.sxqc.yangzhan',
     vipId: 'com.sanguosha.mjzoo',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-echo.vx-cdn.com/file-65070406c90c2-65162cbbbed09/yxl-ent-0913.ipa',
+    entIPA: 'https://tmp-echo.vx-cdn.com/file-6516a40a595d1-6516ad4b7ea7d/yxl-ent-0929.ipa',
     vipIPA: 'https://tmp-echo.vx-cdn.com/file-64d0edde9306f-650ba1c094371/yxl-dist-0807.ipa',
     entId: 'com.sxqc.yangzhan',
     vipId: 'com.dibai.sgyxl',
