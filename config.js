@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-hd3.vx-cdn.com/file-6516576015d1a-6520cf75e0118/sgs-ent-0929.ipa',
-    vipIPA: 'https://tmp-hd9.vx-cdn.com/file-651a6c2807e87-6520cf76e603f/sgs-vip-1002.ipa',
+    vipIPA: 'https://tmp-hd2.vx-cdn.com/file-6520dbbb325cc-6520e436b5f39/sgs-vip-1007.ipa',
     entId: 'com.sxqc.yangzhan',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -19,16 +19,16 @@ var MDConfigData = {
   },
   sgyxl: {
     entIPA: 'https://tmp-hd9.vx-cdn.com/file-6516a40a595d1-6520cf762e427/yxl-ent-0929.ipa',
-    vipIPA: 'https://tmp-echo.vx-cdn.com/file-64d0edde9306f-650ba1c094371/yxl-dist-0807.ipa',
+    vipIPA: 'https://tmp-hd2.vx-cdn.com/file-6520e20c46abb-6520e43709aa0/yxl-dist-1007.ipa',
     entId: 'com.sxqc.yangzhan',
-    vipId: 'com.dibai.sgyxl',
+    vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
     title: '三国英雄录+',
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
     entIPA: 'https://tmp-echo.vx-cdn.com/file-6502896b74dbf-651405dd39f49/sgz-ent-0913.ipa',
-    vipIPA: 'https://tmp-hd9.vx-cdn.com/file-64f81dcf1bd19-6502653fd7ebf/sgz.ipa',
+    vipIPA: 'https://tmp-hd9.vx-cdn.com/file-6520e22be81ca-6520e43699502/sgz-dist-1007.ipa',
     entId: 'com.sxqc.yangzhan',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
