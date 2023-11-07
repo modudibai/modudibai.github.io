@@ -1,8 +1,8 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd2.vx-cdn.com/file-653b46d2ac4f0-654997de2aa53/sgs-ent-1027.ipa',
-    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-6544571a11154-654997dd2bf4a/sgs-vip-1102.ipa',
-    entId: 'com.aldo.fiori',
+    entIPA: 'https://tmp-hd7.vx-cdn.com/file-654a4570abf26-654a45f0c0ebc/sgs-ent-1107.ipa',
+    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-6544571a11154-654a45f2d8578/sgs-vip-1102.ipa',
+    entId: 'io.dcloud.UNI2D6AB00',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.aldo.fiori',
+    entId: 'io.dcloud.UNI2D6AB00',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-hd7.vx-cdn.com/file-653c71b9b5d14-654997df75fba/yxl-ent-1027.ipa',
     vipIPA: 'https://tmp-hd2.vx-cdn.com/file-6520e20c46abb-6520e43709aa0/yxl-dist-1007.ipa',
-    entId: 'com.aldo.fiori',
+    entId: 'io.dcloud.UNI2D6AB00',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-echo.vx-cdn.com/file-6502896b74dbf-651405dd39f49/sgz-ent-0913.ipa',
     vipIPA: 'https://tmp-hd9.vx-cdn.com/file-6520e22be81ca-6520e43699502/sgz-dist-1007.ipa',
-    entId: 'com.aldo.fiori',
+    entId: 'io.dcloud.UNI2D6AB00',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
     vipIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
-    entId: 'com.aldo.fiori',
+    entId: 'io.dcloud.UNI2D6AB00',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
