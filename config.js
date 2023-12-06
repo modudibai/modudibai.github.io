@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-hd106.vx-cdn.com/file-6561de764b067-6567ed50b2979/sgs-ent-1125.ipa',
-    vipIPA: 'https://tmp-big.vx-cdn.com/file-6569a5a6a9dd6-656fd3b23290c/sgs-vip-1201.ipa',
+    vipIPA: 'https://tmp-big.vx-cdn.com/file-6569a5a6a9dd6-657055ca1f7d3/sgs-vip-1201.ipa',
     entId: 'com.gac.gacautotool',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -19,7 +19,7 @@ var MDConfigData = {
   },
   sgyxl: {
     entIPA: 'https://tmp-hd8.vx-cdn.com/file-655b33a790aae-655c10a2a7267/yxl-ent-1120.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-656fd3b340d4e/yxl-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-657055ca1927f/yxl-dist-1205.ipa',
     entId: 'com.gac.gacautotool',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-656fd3b437d8f/sgz-dist-1205.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-656fd3b437d8f/sgz-dist-1205.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
     entId: 'com.gac.gacautotool',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
