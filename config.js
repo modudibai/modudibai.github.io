@@ -9,7 +9,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgs2: {
-    entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
+    entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
     entId: 'com.hnrbi.yzj1',
     vipId: 'com.sanguosha.mjzoo',
@@ -46,8 +46,8 @@ var MDConfigData = {
   },
   trollhelper: {
     ios14: {
-      entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
-      vipIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
       entId: 'com.calc.iphone',
       vipId: 'com.calc.iphone',
       title: 'TrollHelper(arm64e)',
@@ -55,8 +55,8 @@ var MDConfigData = {
       image: 'https://jailbreaks.app/img/Jailbreaks.png'
     },
     ios14raw: {
-      entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper64e.ipa',
-      vipIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper64e.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper64e.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper64e.ipa',
       entId: 'com.icraze.gtatracker',
       vipId: 'com.icraze.gtatracker',
       title: 'TrollHelper(arm64e)',
@@ -64,8 +64,8 @@ var MDConfigData = {
       image: 'https://jailbreaks.app/img/Jailbreaks.png'
     },
     ios15: {
-      entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
-      vipIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
       entId: 'com.calc.iphone',
       vipId: 'com.calc.iphone',
       version: '1',
@@ -73,8 +73,8 @@ var MDConfigData = {
       image: 'https://jailbreaks.app/img/Jailbreaks.png'
     },
     ios15raw: {
-      entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper.ipa',
-      vipIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper.ipa',
       entId: 'com.icraze.gtatracker',
       vipId: 'com.icraze.gtatracker',
       version: '1',
