@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-hd106.vx-cdn.com/file-6561de764b067-6567ed50b2979/sgs-ent-1125.ipa',
     vipIPA: 'https://tmp-big.vx-cdn.com/file-6569a5a6a9dd6-657055ca1f7d3/sgs-vip-1201.ipa',
-    entId: 'com.gac.gacautotool',
+    entId: 'com.hnrbi.yzj1',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://ghproxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.gac.gacautotool',
+    entId: 'com.hnrbi.yzj1',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-hd8.vx-cdn.com/file-655b33a790aae-655c10a2a7267/yxl-ent-1120.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-657055ca1927f/yxl-dist-1205.ipa',
-    entId: 'com.gac.gacautotool',
+    entId: 'com.hnrbi.yzj1',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
-    entId: 'com.gac.gacautotool',
+    entId: 'com.hnrbi.yzj1',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
     vipIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
-    entId: 'com.gac.gacautotool',
+    entId: 'com.hnrbi.yzj1',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
