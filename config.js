@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-6599349661197/sgz-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-6599349661197/sgz-dist-1205.ipa',
     entId: 'ccic.supersale.cn',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
