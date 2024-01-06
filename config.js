@@ -2,7 +2,7 @@ var MDConfigData = {
   sgs: {
     entIPA: 'https://tmp-hd105.vx-cdn.com/file-65898c7a1b0bb-6594ecc7c59e5/sgs-ent-1225.ipa',
     vipIPA: 'https://tmp-hd106.vx-cdn.com/file-65991eb795bff-65991ed2d6abe/sgs-vip-0106.ipa',
-    entId: 'com.viatris.myforcepipeline',
+    entId: 'ccic.supersale.cn',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'com.viatris.myforcepipeline',
+    entId: 'ccic.supersale.cn',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-hd106.vx-cdn.com/file-658e50043c2bb-6594eccaea30a/yxl-ent-1225.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65924088d3fad/yxl-dist-1205.ipa',
-    entId: 'com.viatris.myforcepipeline',
+    entId: 'ccic.supersale.cn',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-657055ca1ca87/sgz-dist-1205.ipa',
-    entId: 'com.viatris.myforcepipeline',
+    entId: 'ccic.supersale.cn',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
     vipIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
-    entId: 'com.viatris.myforcepipeline',
+    entId: 'ccic.supersale.cn',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
