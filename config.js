@@ -1,8 +1,8 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-659921d238e48-65a13611d3951/sgs-ent-0106.ipa',
-    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-65a132a05cd98-65a13611d57f0/sgs-vip-0112.ipa',
-    entId: 'ccic.supersale.cn',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1f197130ec-65a1f37085cbf/sgs-ent-0113.ipa',
+    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-65a132a05cd98-65a1f35ed3138/sgs-vip-0112.ipa',
+    entId: 'com.djbx.life.agent.dat',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
     vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
-    entId: 'ccic.supersale.cn',
+    entId: 'com.djbx.life.agent.dat',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -20,7 +20,7 @@ var MDConfigData = {
   sgyxl: {
     entIPA: 'https://tmp-hd105.vx-cdn.com/file-659922d651b05-65a13611d1908/yxl-ent-0106.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65924088d3fad/yxl-dist-1205.ipa',
-    entId: 'ccic.supersale.cn',
+    entId: 'com.djbx.life.agent.dat',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
     title: '三国英雄录+',
@@ -29,7 +29,7 @@ var MDConfigData = {
   sgz: {
     entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-6599349661197/sgz-dist-1205.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-6599349661197/sgz-dist-1205.ipa',
-    entId: 'ccic.supersale.cn',
+    entId: 'com.djbx.life.agent.dat',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
     title: '三国志名将+',
@@ -38,7 +38,7 @@ var MDConfigData = {
   zzxy: {
     entIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
     vipIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
-    entId: 'ccic.supersale.cn',
+    entId: 'com.djbx.life.agent.dat',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
     title: '自在西游+',
