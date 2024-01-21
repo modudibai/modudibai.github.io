@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1fb9a242ca-65ab98dddadd4/yxl-ent-0113.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65a8883206004/yxl-dist-1205.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1fb9a242ca-65ac883585d13/yxl-ent-0113.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65ac883293345/yxl-dist-1205.ipa',
     entId: 'com.djbx.life.agent.dat',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
