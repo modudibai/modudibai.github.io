@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1f197130ec-65ac87d117d26/sgs-ent-0113.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65ac87445c1c2-65ac87d18530a/sgs-vip-0121.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1f197130ec-65af4c255c651/sgs-ent-0113.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65ac87445c1c2-65af4c2378e52/sgs-vip-0121.ipa',
     entId: 'com.djbx.life.agent.dat',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1fb9a242ca-65ac883585d13/yxl-ent-0113.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65ac883293345/yxl-dist-1205.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65a1fb9a242ca-65af4c265c157/yxl-ent-0113.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65af4c2a68864/yxl-dist-1205.ipa',
     entId: 'com.djbx.life.agent.dat',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
