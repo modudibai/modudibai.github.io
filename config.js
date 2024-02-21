@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65d5579053c9f/sgs-ent-0206.ipa',
-    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-65d094b7a9a20-65d4971ee11fa/sgs-vip-0131.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65d5785defb03/sgs-ent-0206.ipa',
+    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-65d094b7a9a20-65d5785ea14b3/sgs-vip-0131.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,7 +18,7 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65d557918a7ac/yxl-ent-0206.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65d578636778a/yxl-ent-0206.ipa',
     vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65d4971fe811c/yxl-dist-1205.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.sgyxl2',
