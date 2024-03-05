@@ -9,8 +9,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgs2: {
-    entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-ent-0714.ipa',
-    vipIPA: 'https://tmp-titan.vx-cdn.com/file-64bdcf24f191f-64be6aeb8f2e3/sgs-vip-0724.ipa',
+    entIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-vip-0225.ipa',
+    vipIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-vip-0225.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
