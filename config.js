@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65de933f950e8/sgs-ent-0206.ipa',
-    vipIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-vip-0225.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65e6b9be790b0/sgs-ent-0206.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65db2ff59ee89-65e6b9c065288/sgs-vip-0225.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65de9343a223a/yxl-ent-0206.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65de93459f040/yxl-dist-1205.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65e6b9c1d982b/yxl-ent-0206.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65e6b9c35b68c/yxl-dist-1205.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65de934798a80/sgz-dist-1205.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65de93496f663/sgz-dist-1205.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65e6b9c4c999e/sgz-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65e6b9c63fe64/sgz-dist-1205.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
-    vipIPA: 'https://tmp-hd7.vx-cdn.com/file-652a0b0094a2f-6537b98bd47ba/zzxy-ent-1014.ipa',
+    entIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65e6b9c7c220d/zzxy-ent-1014.ipa',
+    vipIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65e6b9c933851/zzxy-ent-1014.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
