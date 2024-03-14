@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65ee70971f88d/sgs-ent-0206.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65db2ff59ee89-65ee709915783/sgs-vip-0225.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d0959553614-65f265b548d6f/sgs-ent-0206.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65db2ff59ee89-65f265b7872f8/sgs-vip-0225.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65ee709a8d181/yxl-ent-0206.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65ee709c63e32/yxl-dist-1205.ipa',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-65d096a21b28c-65f265b91a9bd/yxl-ent-0206.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-65f265bab4030/yxl-dist-1205.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65ee709e38e60/sgz-dist-1205.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65ee709ff018b/sgz-dist-1205.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65f265bc76060/sgz-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-65f265be2d0ae/sgz-dist-1205.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65ee70a20d2c2/zzxy-ent-1014.ipa',
-    vipIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65ee70a37ef98/zzxy-ent-1014.ipa',
+    entIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65f265bfc406d/zzxy-ent-1014.ipa',
+    vipIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-65f265c154608/zzxy-ent-1014.ipa',
     entId: 'com.uusafe.cqcbank.portal',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
