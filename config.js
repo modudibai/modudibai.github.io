@@ -46,8 +46,8 @@ var MDConfigData = {
   },
   trollhelper: {
     ios14: {
-      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
-      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_arm64e.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/fast_trollstore/releases/download/v1.0.0/TrollHelper_iOS14.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/fast_trollstore/releases/download/v1.0.0/TrollHelper_iOS14.ipa',
       entId: 'com.calc.iphone',
       vipId: 'com.calc.iphone',
       title: 'TrollHelper(arm64e)',
@@ -64,8 +64,8 @@ var MDConfigData = {
       image: 'https://jailbreaks.app/img/Jailbreaks.png'
     },
     ios15: {
-      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
-      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/sgsgo/releases/download/v1.0.4/TrollHelper_iOS15.ipa',
+      entIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/fast_trollstore/releases/download/v1.0.0/TrollHelper_iOS15.ipa',
+      vipIPA: 'https://gh.api.99988866.xyz/https://github.com/modudibai/fast_trollstore/releases/download/v1.0.0/TrollHelper_iOS15.ipa',
       entId: 'com.calc.iphone',
       vipId: 'com.calc.iphone',
       version: '1',
