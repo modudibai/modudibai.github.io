@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd105.vx-cdn.com/file-6602dd181057a-660b95e34a8eb/sgs-ent-0318.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65db2ff59ee89-660b95e64d765/sgs-vip-0225.ipa',
+    entIPA: 'https://tmp-hd105.vx-cdn.com/file-6602dd181057a-660be18bd76df/sgs-ent-0318.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-65db2ff59ee89-660be18f4f77d/sgs-vip-0225.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd105.vx-cdn.com/file-6602d945d8c7c-660b95e7cfdcd/yxl-ent-0318.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-660b95e972ec3/yxl-dist-1205.ipa',
+    entIPA: 'https://tmp-hd105.vx-cdn.com/file-6602d945d8c7c-660be190b9f0b/yxl-ent-0318.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f1a7486106-660be19253ffd/yxl-dist-1205.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-660b95eb39202/sgz-dist-1205.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-660b95ec91c3c/sgz-dist-1205.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-660be193df4b3/sgz-dist-1205.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-656f29b432270-660be19560e6f/sgz-dist-1205.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
@@ -36,8 +36,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   zzxy: {
-    entIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-660b95ee25956/zzxy-ent-1014.ipa',
-    vipIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-660b95efb78ad/zzxy-ent-1014.ipa',
+    entIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-660be196bd040/zzxy-ent-1014.ipa',
+    vipIPA: 'https://tmp-hd100.vx-cdn.com/file-652a0b0094a2f-660be19878f90/zzxy-ent-1014.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.zzxy',
     version: '1.1.31',
