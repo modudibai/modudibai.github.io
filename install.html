@@ -339,6 +339,9 @@ function onAppInstall(appData, isEnt) {
   
   makePlistFile(appData, isEnt, function(linkUrl){
     window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
+    setTimeout(function(){
+      window.location.reload();
+    }, 5000);
   });
 }
 
