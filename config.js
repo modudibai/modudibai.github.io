@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66963c9c031b2-669863c17c4e7/sgs-vip-0716.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66963c9c031b2-669863c17c4e7/sgs-vip-0716.ipa',
+    entIPA: 'https://tmp-hd105.vx-cdn.com/file-669c9c5be3144-669c9cc4b240c/sgs-vip-0721.ipa',
+    vipIPA: 'https://tmp-hd105.vx-cdn.com/file-669c9c5be3144-669c9cc4b240c/sgs-vip-0721.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
@@ -18,8 +18,8 @@ var MDConfigData = {
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg'
   },
   sgyxl: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66965cd1ee3d4-669863c3cbb00/yxl-dist-0716.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66965cd1ee3d4-669863c3cbb00/yxl-dist-0716.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66965cd1ee3d4-669c9cc784f2d/yxl-dist-0716.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66965cd1ee3d4-669c9cc784f2d/yxl-dist-0716.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.sgyxl2',
     version: '5.1.11',
@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-669863c5799fb/sgz-dist-0716.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-669863c5799fb/sgz-dist-0716.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-669c9cc9d7d2b/sgz-dist-0716.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-669c9cc9d7d2b/sgz-dist-0716.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
