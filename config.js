@@ -27,8 +27,8 @@ var MDConfigData = {
     image: 'https://ios.6kw.com/sgyxl1/57.png'
   },
   sgz: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-66c80cd119c2f/sgz-dist-0716.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-66c80cd119c2f/sgz-dist-0716.ipa',
+    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-66cb150abab63/sgz-dist-0716.ipa',
+    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66966e4433e63-66cb150abab63/sgz-dist-0716.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.dibai.sgzmjz',
     version: '5.1.11',
