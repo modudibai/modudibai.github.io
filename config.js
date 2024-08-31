@@ -1,7 +1,7 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd101.vx-cdn.com/file-66a85adf3d2a8-66cdb13830de3/sgs-vip-0730.ipa',
-    vipIPA: 'https://tmp-hd101.vx-cdn.com/file-66a85adf3d2a8-66cdb13830de3/sgs-vip-0730.ipa',
+    entIPA: 'https://tmp-g1.vx-cdn.com/file-66a85adf3d2a8-66d2cba3c87ea/sgs-vip-0730.ipa',
+    vipIPA: 'https://tmp-g1.vx-cdn.com/file-66a85adf3d2a8-66d2cba3c87ea/sgs-vip-0730.ipa',
     entId: 'org.reactjs.native.example.ydjl',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
