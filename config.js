@@ -1,8 +1,8 @@
 var MDConfigData = {
   sgs: {
-    entIPA: 'https://tmp-hd106.vx-cdn.com/file-66dad505670f0-670f1c6223e7a/sgs-vip-0906.ipa',
-    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-66dad505670f0-670f1c6223e7a/sgs-vip-0906.ipa',
-    entId: 'org.reactjs.native.example.ydjl',
+    entIPA: 'https://tmp-hd106.vx-cdn.com/file-670fabd47bfdc-670faea054a63/sgs-vip-1016.ipa',
+    vipIPA: 'https://tmp-hd106.vx-cdn.com/file-670fabd47bfdc-670faea054a63/sgs-vip-1016.ipa',
+    entId: 'com.sanguosha.mjzoo',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
@@ -11,7 +11,7 @@ var MDConfigData = {
   sgs2: {
     entIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-vip-0225.ipa',
     vipIPA: 'https://gh-proxy.com/https://github.com/modudibai/sgsgo/releases/download/v1.0.5/sgs-vip-0225.ipa',
-    entId: 'org.reactjs.native.example.ydjl',
+    entId: 'com.sanguosha.mjzoo',
     vipId: 'com.sanguosha.mjzoo',
     version: '4.2.7',
     title: '三国名将传+',
