@@ -498,9 +498,6 @@ function showLoading(visible) {
       <a href="javascript(void);" onclick="onAppDownload(configData.ios, false)" target="_blank">
         <button type="button">点击下载IPA</button>
       </a>
-      <a href="javascript:void(0);" onclick="onAppInstall(configData.ios, false)">
-        <button type="button">点击直接安装</button>
-      </a>
     </div>
     <p>3、cydia里添加源：https://apt.cydiabc.top</p>
     <p>4、cydia里搜索AppSync，安装《AppSync Unifined 关闭签名》</p>
@@ -508,5 +505,17 @@ function showLoading(visible) {
     <p>6、选中下载的ipa文件，点击“分享”，使用Filza打开ipa（如没有Filza，先到cydia里搜索Filza并安装）</p>
     <p>7、在Filza里，点击要安装的ipa文件后面的“问号”图标，修改打开方式为《安装器》</p>
     <p>8、在Filza里，点击要安装的ipa文件后，在右上角点击安装即可</p>
+  </div>
+
+  <div id="install6">
+    <p class="dl-title">专属安装【需签名后才能安装】</p>
+    <p>在手机浏览器里打开本页面，点击下面下载地址安装</p>
+    <div class="download-links">
+      <div>
+        <a href="javascript:void(0);" onclick="onAppInstall(configData.ios, false)">
+          <button type="button">点击直接安装</button>
+        </a>
+      </div>
+    </div>
   </div>
 </body>
