@@ -1,0 +1,509 @@
+<html>
+<head>
+<title>三国名将助手</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<style>
+body{
+  color: #000000d9;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue;
+}
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.desc {
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.dl-title {
+  font-weight: bold;
+  font-size: 18px;
+  background: #ffcc00;
+  padding: 8px 5px;
+}
+.tip{
+  width: 100%;
+  color: #f00;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px auto;
+}
+.features-title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.features-list{
+  background-color: #fff790d9;
+  font-size: 14px;
+  padding: 5px 5px 5px 20px;
+  margin-top: 0px;
+}
+.features-list li{
+  line-height: 24px;
+}
+.download-links {
+  margin-top: 12px;
+  text-align: center;
+}
+.download-links a {
+  display: block;
+  margin: 24px 0 0 0;
+}
+.download-links a.link2 {
+  display: inline-block;
+  margin: 4px 0 0 -20px;
+}
+.download-links button {
+  margin-right: 20px;
+}
+a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  color: #fff;
+  background: #0170fe;
+  font-size: 16px;
+  height: auto;
+  padding: 12px 36px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  user-select: none;
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+}
+.red {
+  color: #f00;
+ }
+ .blue {
+  color: blue;
+ }
+ .bold {
+  font-weight: bold;
+ }
+.footer{
+  margin-top: 60px;
+  color: #666;
+  text-align: center;
+}
+</style>
+<style>
+.loading-wrapper {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(60, 60, 60, 0.3);
+  pointer-events: none;
+}
+
+.loading-box {
+  width: 180px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(60, 60, 60, 1.0);
+  border-radius: 16px;
+  padding-top: 20px;
+}
+.loading-text {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.loading,
+.loading > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.loading {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  margin: auto;
+}
+
+.loading.la-dark {
+  color: #333;
+}
+
+.loading > div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+}
+
+.loading {
+  width: 32px;
+  height: 32px;
+  animation: ball-spin-clockwise-fade-rotating-rotate 6s infinite linear;
+}
+
+.loading > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -4px;
+  border-radius: 100%;
+  animation: ball-spin-clockwise-fade-rotating 1s infinite linear;
+}
+
+.loading > div:nth-child(1) {
+  top: 5%;
+  left: 50%;
+  animation-delay: -0.875s;
+}
+
+.loading > div:nth-child(2) {
+  top: 18.1801948466%;
+  left: 81.8198051534%;
+  animation-delay: -0.75s;
+}
+
+.loading > div:nth-child(3) {
+  top: 50%;
+  left: 95%;
+  animation-delay: -0.625s;
+}
+
+.loading > div:nth-child(4) {
+  top: 81.8198051534%;
+  left: 81.8198051534%;
+  animation-delay: -0.5s;
+}
+
+.loading > div:nth-child(5) {
+  top: 94.9999999966%;
+  left: 50.0000000005%;
+  animation-delay: -0.375s;
+}
+
+.loading > div:nth-child(6) {
+  top: 81.8198046966%;
+  left: 18.1801949248%;
+  animation-delay: -0.25s;
+}
+
+.loading > div:nth-child(7) {
+  top: 49.9999750815%;
+  left: 5.0000051215%;
+  animation-delay: -0.125s;
+}
+
+.loading > div:nth-child(8) {
+  top: 18.179464974%;
+  left: 18.1803700518%;
+  animation-delay: 0s;
+}
+
+.loading.la-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.loading.la-sm > div {
+  width: 4px;
+  height: 4px;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.loading.la-2x {
+  width: 64px;
+  height: 64px;
+}
+
+.loading.la-2x > div {
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.loading.la-3x {
+  width: 96px;
+  height: 96px;
+}
+
+.loading.la-3x > div {
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+@keyframes ball-spin-clockwise-fade-rotating-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes ball-spin-clockwise-fade-rotating {
+  50% {
+    opacity: 0.25;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
+<script type="text/javascript" src="./config.js"></script>
+<script type="text/javascript">
+var configData = {
+  android: {
+    version: '1.0.0',
+    appid: 'com.mook',
+    appname: '魔多',
+    url: 'https://tmp-hd106.vx-cdn.com/file-673ed7b4555d7-673ed861e063a/mook-1.0.0.apk',
+    image: '',
+  },
+  ios: {
+    version: '1.0.0',
+    appid: 'com.mordor.mook',
+    appname: '魔多',
+    url: '',
+    image: '',
+  },
+};
+var isWX = /MicroMessenger/ig.test(navigator.userAgent);
+var isAndroid = /Android/ig.test(navigator.userAgent);
+
+function generatePlistContent(data) {
+  var plist = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key><string>${IPA_URL}</string></dict><dict><key>kind</key><string>full-size-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict><dict><key>kind</key><string>display-image</string><key>needs-shine</key><true/><key>url</key><string>${IPA_IMAGE}</string></dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>${IPA_BUNDLE_ID}</string><key>bundle-version</key><string>${IPA_BUNDLE_VER}</string><key>kind</key><string>software</string><key>title</key><string>${IPA_BUNDLE_TITLE}</string></dict></dict></array></dict></plist>';
+  plist = plist.replace(/\$\{IPA_URL\}/ig, data.url).replace(/\$\{IPA_IMAGE\}/ig, data.image).replace(/\$\{IPA_BUNDLE_ID\}/ig, data.id).replace(/\$\{IPA_BUNDLE_TITLE\}/ig, data.title).replace(/\$\{IPA_BUNDLE_VER\}/ig, data.version);
+  return plist;
+}
+
+function makePlistFile(appData, isEnt, callback) {
+  showLoading(true);
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('post', 'https://file.io', true);
+
+  var plist = generatePlistContent({
+    url: isEnt ? appData.url : appData.url,
+    id: isEnt ? appData.appid : appData.appid,
+    image: appData.image,
+    version: appData.version,
+    title: appData.appname
+  });
+  var blob = new Blob([plist], {type:'application/octet-stream'});
+  
+  // 过期时间1个月
+  var date = new Date();
+  var year = date.getFullYear();
+  var month = date.getMonth();
+  var date = 20;
+  if (month < 11) month = month + 2;
+  else year = year + 1;
+  var dateStr = year;
+  dateStr += '-' + (month < 10 ? ('0' + month) : month);
+  dateStr += '-' + (date < 10 ? ('0' + date) : date);
+  dateStr += 'T23:59:59.590Z';
+
+  var formData = new FormData();
+  formData.append('file', blob, 'manifest.plist');
+  formData.append('expires', dateStr);
+  formData.append('maxDownloads', 1);
+  formData.append('autoDelete', 'true');
+  xhr.addEventListener('load', function(){
+    setTimeout(function(){
+      showLoading(false);
+    }, 3000);
+    var result = JSON.parse(xhr.response);
+    callback(result.link);
+  });
+  xhr.addEventListener('error', function(){
+    showLoading(false);
+  });
+  xhr.send(formData);
+}
+
+function onAppInstall(appData, isEnt) {
+  if (isWX) {
+    alert('微信中无法安装，请在手机Safari浏览器中打开本页面后，再点击安装');
+    return;
+  }
+  
+  makePlistFile(appData, isEnt, function(linkUrl){
+    window.location.href = 'itms-services://?action=download-manifest&url=' + linkUrl;
+    setTimeout(function(){
+      window.location.reload();
+    }, 5000);
+  });
+}
+
+function onAppDownload(appData, isEnt) {
+  var url = isEnt ? appData.url : appData.url;
+  window.location.href = url;
+  window.event.returnValue = false;
+}
+
+function showLoading(visible) {
+  var value = visible ? 'initial' : 'none';
+  document.querySelector('.loading-wrapper').style.display = value;
+}
+
+</script>
+</head>
+
+<body style="display:inherit;">
+  <div class="top">
+    <p class="title">《三国名将传》助手</p>
+    <p class="tip">【!!!支持Andorid/iOS/模拟器等各种设备!!!】</p>
+    <p class="features-title">工具特性：</p>
+    <ul class="features-list">
+      <li><span class="bold blue">【全平台】</span>支持苹果和安卓系统，包括模拟器</li>
+      <li><span class="bold blue">【全区服】</span>支持A/Y/N/Z各大区服，不受设备限制（A区可以在安卓设备登录使用，Z区也可以用苹果设备登录）</li>
+      <li><span class="bold blue">【多任务】</span>多个任务可同时进行，比如跑迷窟时仍然可以答题或打BOSS</li>
+      <li><span class="bold blue">【小而快】</span>体积小、不占用设备空间，运行快</li>
+      <li><span class="bold blue">【功能全】</span>包括迷窟、日常任务&奖励、小号自动任务等</li>
+      <li>【迷窟】自动接单/跑单，可设置跑单次数/玉璧上限，稳定不掉线，无忧挂机</li>
+      <li>【日常】日常任务/打BOSS/答题/试炼等各种活动，自动领奖励，彻底解放</li>
+      <li>【自动切号】自动做完任务/跑单后切号继续做，小号福音</li>
+    </ul>
+  </div>
+
+  <div id="install-android">
+    <p class="dl-title">一、Android安卓设备</p>
+    <div class="download-links">
+      <div>
+        <a href="javascript(void);" onclick="onAppDownload(configData.android, false)" target="_blank">
+          <button type="button">点击下载APK</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <p class="dl-title">二、iOS苹果设备</p>
+    <p class="features-title">安装方法：（选择任意一种适合的方法安装）</p>
+    <ul class="features-list">
+      <li><a href="#install2"><b>巨魔商店安装</b></a>（仅限iOS14.0-15.4.1，永久有效，推荐）</li>
+      <li><a href="#install3"><b>电脑侧载安装</b></a>（适合所有设备，需电脑配合安装，推荐）</li>
+      <li><a href="#install4"><b>越狱设备安装</b></a>（仅限越狱设备，无需签名）</li>
+    </ul>
+  </div>
+
+  <div class="loading-wrapper">
+    <div class="loading-box">
+      <div class="loading">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="loading-text">加载中，请稍后...</div>
+    </div>
+  </div>
+
+  <div id="install2">
+    <p class="dl-title">巨魔商店安装【仅限iOS14.0-15.4.1设备，永久有效，推荐】</p>
+    <p class="red">注意：重装游戏，不要删巨魔TrollStore，安装后就不要删！！！</p>
+    <p>1、【已安装巨魔的，直接从第7步开始】在手机上使用Safari浏览器下载安装下面的软件（iOS14下载第1个，iOS15下载第2个）</p>
+    <div class="download-links">
+      <div>
+        <a href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios14, false)">
+          <button type="button">下载巨魔（iOS14）</button>
+        </a>
+        <a class="link2" href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios14raw, false)">
+          <b>（备用下载地址iOS14）</b>
+        </a>
+      </div>
+      <a href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios15, false)">
+        <button type="button">下载巨魔（iOS15）</button>
+      </a>
+      <a class="link2" href="javascript:void(0);" onclick="onAppInstall(MDConfigData.trollhelper.ios15raw, false)">
+        <b>（备用下载地址iOS15）</b>
+      </a>
+    </div>
+    <p>2、安装完成后，手机上会出现《计算器+》或《GTA Car Tracker》的应用</p>
+    <p>3、打开这个APP，点击 “Install TrollStore” 按钮安装，中间如果出现错误，重试几次</p>
+    <p>4、安装完成后，手机上会出现《TrollStore》的应用</p>
+    <p>5、打开TrollStore，点击底部的“Settings”进入设置页，点击“Install ldid”按钮安装，安装完成后显示“Idid：Installed”即可。中间如果出现错误，重试几次</p>
+    <p>6、点击“Install Persistence Helper”，弹出选择“Tips”，到此准备工作完成</p>
+    <p>7、在手机上用Safari浏览器点击下载下面ipa文件</p>
+    <div class="download-links">
+      <a href="javascript(void);" onclick="onAppDownload(configData.ios, false)" target="_blank">
+        <button type="button">下载iOS应用</button>
+      </a>
+    </div>
+    <p>8、下载完成后，选中文件，点击“分享”，使用TrollStore打开下载的ipa即开始安装</p>
+    <p>9、安装完成后，可以删除《计算器+》，但一定保留TrollStore应用，不要删！不要删！不要删！</p>
+  </div> 
+
+  <div id="install3">
+    <p class="dl-title">电脑侧载安装【适合所有设备，需电脑配合安装，推荐】</p>
+    <p>1、在电脑上下载下面ipa文件</p>
+    <div class="download-links">
+      <a href="javascript(void);" onclick="onAppDownload(configData.ios, false)" target="_blank">
+        <button type="button">下载iOS应用</button>
+      </a>
+    </div>
+    <p>2、在电脑上下载并安装iTunes（如果已安装则跳过）</p>
+    <div class="download-links">
+      <a href="https://support.apple.com/zh-cn/HT210384" target="_blank">
+        <button type="button">去Apple官网下载</button>
+      </a>
+    </div>
+    <p>3、在电脑上下载并安装Sideloadly工具</p>
+    <div class="download-links">
+      <a href="https://sideloadly.io/#download" target="_blank">
+        <button type="button">去Sideloadly官网下载</button>
+      </a>
+    </div>
+    <p>4、手机用USB连接电脑，根据Sideloadly官网提示，安装ipa到手机上（可参考这篇 <a href="https://zhuanlan.zhihu.com/p/385207797" target="_blank"><b>中文使用教程</b></a> ）</p>
+    <p>5、此方法的缺点是，安装的APP有效期为7天，7天后需再次重新使用Sideloadly刷新安装</p>
+  </div>
+
+  <div id="install4">
+    <p class="dl-title">越狱设备安装【仅限越狱设备iOS11.0-14.8，无需签名，永久有效】</p>
+    <p>1、先自行越狱iOS设备，推荐使用 <a href="https://unc0ver.dev" target="_blank"><b>unc0ver越狱</b></a></p>
+    <p>2、用Safari浏览器下载游戏ipa文件</p>
+    <div class="download-links">
+      <a href="javascript(void);" onclick="onAppDownload(configData.ios, false)" target="_blank">
+        <button type="button">下载地址</button>
+      </a>
+    </div>
+    <p>3、cydia里添加源：https://apt.cydiabc.top</p>
+    <p>4、cydia里搜索AppSync，安装《AppSync Unifined 关闭签名》</p>
+    <p>5、cydia里搜索Filza，安装《Filza File 文件管理器 破解补丁》</p>
+    <p>6、选中下载的ipa文件，点击“分享”，使用Filza打开ipa（如没有Filza，先到cydia里搜索Filza并安装）</p>
+    <p>7、在Filza里，点击要安装的ipa文件后面的“问号”图标，修改打开方式为《安装器》</p>
+    <p>8、在Filza里，点击要安装的ipa文件后，在右上角点击安装即可</p>
+  </div>
+</body>
