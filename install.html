@@ -288,6 +288,7 @@ function makePlistFile(appData, isEnt, callback) {
   var hash = today.getFullYear() + '' + today.getMonth() + '' + today.getDate() + '' + today.getHours() + '' + today.getMinutes();
   if (!appData.id) appData.id = 'sgs';
   var newLink = 'https://msgsgo.oss-cn-beijing.aliyuncs.com/' + appData.id + '.plist' + '?' + hash;
+  console.log(newLink);
   callback(newLink);
   return;
   showLoading(true);
