@@ -286,7 +286,8 @@ function generatePlistContent(data) {
 function makePlistFile(appData, isEnt, callback) {
   var today = new Date();
   var hash = today.getFullYear() + '' + today.getMonth() + '' + today.getDate() + '' + today.getHours() + '' + today.getMinutes();
-  var newLink = 'https://msgsgo.oss-cn-beijing.aliyuncs.com/sgs.plist' + '?' + hash;
+  if (!appData.id) appData.id = 'sgs';
+  var newLink = 'https://msgsgo.oss-cn-beijing.aliyuncs.com/' + appData.id + '.plist' + '?' + hash;
   callback(newLink);
   return;
   showLoading(true);
