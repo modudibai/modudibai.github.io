@@ -19,6 +19,14 @@ var configData = {
     url: 'https://express.5t-cdn.com/file-6790bf58c211c-6794aac9d1fc3/mook-1.1.2.ipa',
     image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg',
   },
+  ios2: {
+    id: 'mook2',
+    version: '1.1.2',
+    appid: 'com.mordor.mook',
+    appname: '魔多',
+    url: 'https://express.5t-cdn.com/file-6790bf58c211c-6794aac9d1fc3/mook-1.1.2.ipa',
+    image: 'https://img11.18183.com/ku18183/image/2020/04/09/d82ea75be4235867aa63a27c550afb3f.jpg',
+  },
 };  
 </script>
 <style>
@@ -528,6 +536,13 @@ window.addEventListener('load', function(){
       <div>
         <a href="javascript:void(0);" onclick="onAppInstall(configData.ios, false)">
           <button type="button">点击直接安装</button>
+        </a>
+      </div>
+    </div>
+    <div class="download-links">
+      <div>
+        <a href="javascript:void(0);" onclick="onAppInstall(configData.ios2, false)">
+          <button type="button">备份安装地址2</button>
         </a>
       </div>
     </div>
